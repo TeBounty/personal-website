@@ -1,0 +1,145 @@
+@import url(https://fonts.googleapis.com/css?family=Fjalla+One);
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  /* height: 100%; */
+  margin: 0;
+  overflow-y: hidden;
+  font-size: 2.6rem;
+  background-image: url(../img/fond_principal.jpg);
+  background-size: 1950px 912px;
+  background-repeat: no-repeat;
+	font-family: 'Fjalla One', sans-serif;
+}
+
+header {
+  min-height: 100vh;
+  color: black;
+}
+
+p {
+  font-size: 1.8rem;
+  color: black;
+}
+
+ul {
+  font-size: 1.8rem;
+  color: black;
+}
+
+/* div:first-child {
+    margin: 10px
+} */
+
+img {
+  margin-top: 5px;
+  margin-left: 10px;
+  width: 100px;
+  height: 100px;
+}
+
+/** Css Animation **/
+
+#titreContainer {
+  transform: translate(-50%, -50%);
+  top: 25%;
+  left: 30%;
+  display: block;
+  position: absolute;
+  max-width: 550px;
+}
+
+#buttonCv {
+  float: left;
+  position: relative;
+  bottom: -362px;
+  left: 81%;
+  transform: translateX(-50%) rotate(10deg);
+  cursor: pointer;
+  padding: 10px;
+  background: rgb(0, 152, 198);
+}
+
+#buttonCv a {
+  text-decoration: none;
+  color: white;
+  font-size: 3.5rem;
+}
+
+#buttonCv:hover {
+  background-color: white;
+}
+
+#buttonCv:hover a {
+  color: rgb(0, 152, 198);
+}
+  
+  /* .button{
+    float: left;
+    position: relative;
+    bottom: -85px;
+    left: 50%;
+    transform: translateX(-50%) rotate(-10deg);
+    color: rgb(248, 115, 53);
+    text-transform: uppercase;
+    opacity: 0;
+    visibility: hidden;
+    cursor: pointer;
+  }
+  
+  .button span{
+      transform: skew(-10deg);
+      display: block;
+      float: left;
+      text-shadow: #533d4a 1px 1px, #533d4a 2px 2px, #533d4a 3px 3px, #533d4a 4px 4px, #533d4a 5px 5px;
+    } */
+  
+  
+h1 {
+    color: #fff;
+    font-size: 70px;
+    margin: 0;
+    line-height: 90px;
+    letter-spacing: 2px;
+}
+  
+.title {
+    transform: translateX(-50%) rotate(-10deg);
+    display: block;
+    float: left;
+    left: 50%;
+    position: relative;
+} 
+  
+.title span {
+      transform: skew(-10deg);
+      display: block;
+      float: left;
+      text-shadow: #533d4a 1px 1px, #533d4a 2px 2px, #533d4a 3px 3px, #533d4a 4px 4px, #533d4a 5px 5px, #533d4a 6px 6px;
+      min-width: 10px;
+      min-height: 10px;
+      position: relative;
+}
+  
+.title:nth-child(1) {
+      color: white;
+}
+
+.title:nth-child(2) {
+      color: rgb(255, 235, 197);
+}
+    
+.title:nth-child(3) {
+      color: rgb(247, 194, 188);
+}
+   
+.title:nth-child(4) {
+      color: black;
+}

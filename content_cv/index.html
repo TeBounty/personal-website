@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="fr" ng-app="CvShow">
+
+<head>
+    <title>Curriculum Vitae - Chloé GARDENAT</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Css de base -->
+    <link href="component/css/body.css" rel="stylesheet" type="text/css" />
+    <link href="component/css/navigation.css" rel="stylesheet" type="text/css" />
+    <link href="component/css/footer.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" media="screen and (max-width: 1280px)" href="component/css/petite_resolution.css" />
+
+    <link rel="icon" type="image/png" href="component/img/logo_cg.png" />
+    <link href="https://fonts.googleapis.com/css?family=Francois+One&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div id="container">
+        <div>
+            <div>
+                <div class="logo_cg">
+                    <a href="#!/accueil"><img src="component/img/logo_cg.png" alt="logo chloé gardenat"></a>
+                </div>
+                <div>
+                    <input type="checkbox" id="menuBurger">
+                    <label for="menuBurger">&#9776;</label>
+                    <nav role='navigation' id="navMenu">
+                        <ul>
+                            <li ng-controller="homeCtrl"><a ng-class="{active: $route.current.activetab == 'home'}" href="#!/home">Profil</a></li>
+                            <li ng-controller="competencesCtrl"><a ng-class="{active: $route.current.activetab == 'competences'}" href="#!/competences">Compétences</a></li>
+                            <li ng-controller="experiencesCtrl"><a ng-class="{active: $route.current.activetab == 'experiences'}" href="#!/experiences">Expériences</a></li>
+                            <li ng-controller="formationsCtrl"><a ng-class="{active: $route.current.activetab == 'formations'}" href="#!/formations">Formations</a></li>
+                            <li ng-controller="loisirsCtrl"><a ng-class="{active: $route.current.activetab == 'loisirs'}" href="#!/loisirs">Loisirs</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+            <div ng-view></div>
+        </div>
+
+        <footer>
+            <p>
+                Copyright &copy; Chloé GARDENAT
+            </p>
+        </footer>
+    </div>
+
+    <!-- My App -->
+    <script src="scripts/js/angular.min.js" type="text/javascript"></script>
+    <script src="scripts/js/angular_route.js" type="text/javascript"></script>
+    <script src="scripts/app.js" type="text/javascript"></script>
+
+    <!-- Controllers -->
+    <script src="scripts/controllers/accueilCtrl.js" type="text/javascript"></script>
+    <script src="scripts/controllers/homeCtrl.js" type="text/javascript"></script>
+    <script src="scripts/controllers/competencesCtrl.js" type="text/javascript"></script>
+    <script src="scripts/controllers/experiencesCtrl.js" type="text/javascript"></script>
+    <script src="scripts/controllers/formationsCtrl.js" type="text/javascript"></script>
+    <script src="scripts/controllers/loisirsCtrl.js" type="text/javascript"></script>
+
+    <!-- JS -->
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+
+    <!-- JS du site -->
+    <script src="component/js/animate.js"></script>
+</body>
+
+</html>

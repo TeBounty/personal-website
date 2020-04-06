@@ -1,0 +1,23 @@
+footer {
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    min-height: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+footer p {
+    color: white;
+    text-align: center;
+    font-family: 'Francois One', sans-serif;
+}
+
+footer img {
+    width: 15px;
+    height: 15px;
+}
