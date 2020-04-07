@@ -9,14 +9,12 @@ html {
 }
 
 body {
-  /* height: 100%; */
   margin: 0;
   overflow-y: hidden;
   font-size: 2.6rem;
-  background-image: url(../img/fond_principal.jpg);
-  background-size: 1950px 912px;
-  background-repeat: no-repeat;
-	font-family: 'Fjalla One', sans-serif;
+  font-family: 'Fjalla One', sans-serif;
+  background: url(../img/fond.jpg) no-repeat center center fixed; 
+  background-size: cover;
 }
 
 header {
@@ -34,10 +32,6 @@ ul {
   color: black;
 }
 
-/* div:first-child {
-    margin: 10px
-} */
-
 img {
   margin-top: 5px;
   margin-left: 10px;
@@ -49,7 +43,7 @@ img {
 
 #titreContainer {
   transform: translate(-50%, -50%);
-  top: 25%;
+  top: 20%;
   left: 30%;
   display: block;
   position: absolute;
@@ -59,12 +53,13 @@ img {
 #buttonCv {
   float: left;
   position: relative;
-  bottom: -362px;
-  left: 81%;
-  transform: translateX(-50%) rotate(10deg);
+  bottom: -420px;
+  left: 63%;
   cursor: pointer;
   padding: 10px;
-  background: rgb(0, 152, 198);
+  background: black;
+  border-radius: 15px;
+  outline: none;
 }
 
 #buttonCv a {
@@ -78,29 +73,12 @@ img {
 }
 
 #buttonCv:hover a {
-  color: rgb(0, 152, 198);
+  color: black;
 }
-  
-  /* .button{
-    float: left;
-    position: relative;
-    bottom: -85px;
-    left: 50%;
-    transform: translateX(-50%) rotate(-10deg);
-    color: rgb(248, 115, 53);
-    text-transform: uppercase;
-    opacity: 0;
-    visibility: hidden;
-    cursor: pointer;
-  }
-  
-  .button span{
-      transform: skew(-10deg);
-      display: block;
-      float: left;
-      text-shadow: #533d4a 1px 1px, #533d4a 2px 2px, #533d4a 3px 3px, #533d4a 4px 4px, #533d4a 5px 5px;
-    } */
-  
+
+#buttonCv:active {
+  transform: translateY(10px);
+}
   
 h1 {
     color: #fff;
@@ -122,7 +100,7 @@ h1 {
       transform: skew(-10deg);
       display: block;
       float: left;
-      text-shadow: #533d4a 1px 1px, #533d4a 2px 2px, #533d4a 3px 3px, #533d4a 4px 4px, #533d4a 5px 5px, #533d4a 6px 6px;
+      text-shadow: black 1px 1px, black 2px 2px, black 3px 3px, black 4px 4px, black 5px 5px, black 6px 6px;
       min-width: 10px;
       min-height: 10px;
       position: relative;
@@ -133,13 +111,9 @@ h1 {
 }
 
 .title:nth-child(2) {
-      color: rgb(255, 235, 197);
+      color: white;
 }
     
 .title:nth-child(3) {
-      color: rgb(247, 194, 188);
-}
-   
-.title:nth-child(4) {
-      color: black;
+      color: white;
 }
