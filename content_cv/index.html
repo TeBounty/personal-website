@@ -17,35 +17,39 @@
 </head>
 
 <body>
-    <div id="container">
-        <div>
-            <div>
-                <div class="logo_cg">
-                    <a href="#!/accueil"><img src="component/img/logo_cg.png" alt="logo chloé gardenat"></a>
-                </div>
-                <div>
-                    <input type="checkbox" id="menuBurger">
-                    <label for="menuBurger">&#9776;</label>
-                    <nav role='navigation' id="navMenu">
-                        <ul>
-                            <li ng-controller="homeCtrl"><a ng-class="{active: $route.current.activetab == 'home'}" href="#!/home">Profil</a></li>
-                            <li ng-controller="competencesCtrl"><a ng-class="{active: $route.current.activetab == 'competences'}" href="#!/competences">Compétences</a></li>
-                            <li ng-controller="experiencesCtrl"><a ng-class="{active: $route.current.activetab == 'experiences'}" href="#!/experiences">Expériences</a></li>
-                            <li ng-controller="formationsCtrl"><a ng-class="{active: $route.current.activetab == 'formations'}" href="#!/formations">Formations</a></li>
-                            <li ng-controller="loisirsCtrl"><a ng-class="{active: $route.current.activetab == 'loisirs'}" href="#!/loisirs">Loisirs</a></li>
-                        </ul>
-                    </nav>
-                </div>
-            </div>
-            <div ng-view></div>
+    <div>
+        <div class="logo_cg">
+            <a href="#!/accueil"><img src="component/img/logo_cg.png" alt="logo chloé gardenat"></a>
         </div>
-
-        <footer>
-            <p>
-                Copyright &copy; Chloé GARDENAT
-            </p>
-        </footer>
+        <div>
+            <input type="checkbox" id="menuBurger">
+            <label for="menuBurger">&#9776;</label>
+            <nav role='navigation' id="navMenu">
+                <ul>
+                    <li ng-controller="homeCtrl"><a ng-class="{active: $route.current.activetab == 'home'}"
+                            href="#!/home">Profil</a></li>
+                    <li ng-controller="competencesCtrl"><a
+                            ng-class="{active: $route.current.activetab == 'competences'}"
+                            href="#!/competences">Compétences</a></li>
+                    <li ng-controller="experiencesCtrl"><a
+                            ng-class="{active: $route.current.activetab == 'experiences'}"
+                            href="#!/experiences">Expériences</a></li>
+                    <li ng-controller="formationsCtrl"><a ng-class="{active: $route.current.activetab == 'formations'}"
+                            href="#!/formations">Formations</a></li>
+                    <li ng-controller="loisirsCtrl"><a ng-class="{active: $route.current.activetab == 'loisirs'}"
+                            href="#!/loisirs">Loisirs</a></li>
+                </ul>
+            </nav>
+        </div>
     </div>
+    <div ng-view></div>
+
+    <footer>
+        <p>
+            Copyright &copy; Chloé GARDENAT
+        </p>
+    </footer>
+
 
     <!-- My App -->
     <script src="scripts/js/angular.min.js" type="text/javascript"></script>

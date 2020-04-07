@@ -8,7 +8,7 @@ html {
 
 body {
     margin: 0;
-    background-image: url(../img/fond_cv.jpg);
+    background: url(../img/fond_cv.jpg) no-repeat center center fixed;
     background-size: cover;
 }
 
@@ -36,10 +36,6 @@ a {
 .photo_profil {
     padding: 10px;
     width: 300px;
-}
-
-#container {
-    display: flex;
 }
 
 .transparence {
