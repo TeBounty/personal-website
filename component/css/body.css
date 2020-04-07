@@ -13,13 +13,8 @@ body {
   overflow-y: hidden;
   font-size: 2.6rem;
   font-family: 'Fjalla One', sans-serif;
-  background: url(../img/fond.jpg) no-repeat center center fixed; 
+  background: url(../img/fond_ordi.jpg) no-repeat center center fixed; 
   background-size: cover;
-}
-
-header {
-  min-height: 100vh;
-  color: black;
 }
 
 p {
@@ -39,24 +34,10 @@ img {
   height: 100px;
 }
 
-/** Css Animation **/
-
-#titreContainer {
-  transform: translate(-50%, -50%);
-  top: 20%;
-  left: 30%;
-  display: block;
-  position: absolute;
-  max-width: 550px;
-}
-
 #buttonCv {
-  float: left;
-  position: relative;
-  bottom: -420px;
-  left: 63%;
+  display: inline-block;
   cursor: pointer;
-  padding: 10px;
+  padding: 15px;
   background: black;
   border-radius: 15px;
   outline: none;
@@ -76,44 +57,50 @@ img {
   color: black;
 }
 
-#buttonCv:active {
-  transform: translateY(10px);
+#titreContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
+
+/** Css Animation **/
   
 h1 {
-    color: #fff;
-    font-size: 70px;
-    margin: 0;
-    line-height: 90px;
-    letter-spacing: 2px;
+  max-width: 550px;
+  height: 400px;
+  color: #fff;
+  font-size: 70px;
+  margin: 0;
+  line-height: 90px;
+  letter-spacing: 2px;
 }
   
 .title {
-    transform: translateX(-50%) rotate(-10deg);
-    display: block;
-    float: left;
-    left: 50%;
-    position: relative;
+  transform: translateX(-50%) rotate(-10deg);
+  display: block;
+  float: left;
+  left: 50%;
+  position: relative;
 } 
   
 .title span {
-      transform: skew(-10deg);
-      display: block;
-      float: left;
-      text-shadow: black 1px 1px, black 2px 2px, black 3px 3px, black 4px 4px, black 5px 5px, black 6px 6px;
-      min-width: 10px;
-      min-height: 10px;
-      position: relative;
+  transform: skew(-10deg);
+  display: block;
+  float: left;
+  text-shadow: black 1px 1px, black 2px 2px, black 3px 3px, black 4px 4px, black 5px 5px, black 6px 6px;
+  min-width: 10px;
+  min-height: 10px;
+  position: relative;
 }
   
 .title:nth-child(1) {
-      color: white;
+  color: white;
 }
 
 .title:nth-child(2) {
-      color: white;
+  color: white;
 }
     
 .title:nth-child(3) {
-      color: white;
+  color: white;
 }

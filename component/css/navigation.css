@@ -31,7 +31,8 @@ nav#navMenu ul{
 
 nav#navMenu ul li a{
     text-transform:uppercase;
-    background:rgb(0, 152, 198);
+    background: black;
+    outline: none;
     border-bottom:1px solid hsla(0,0%,0%,.1);
     color:white;
     text-decoration:none;
@@ -42,6 +43,7 @@ nav#navMenu ul li a{
 }    
 
 label[for="menuBurger"]{
+    color: white;
     margin:1rem;
     display:block;
     width:30px;
