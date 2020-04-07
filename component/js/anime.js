@@ -3,11 +3,11 @@
 $(document).ready(function() {
   $(".title").lettering();
   animation();
-  $("#titreContainer").hover(function(){
-    animation();
-    }, function(){
-    $(this).stop();
-  });
+  // $("#titreContainer").hover(function(){
+  //   animation();
+  //   }, function(){
+  //   $(this).stop();
+  // });
 }, 1000);
 
 function animation() {

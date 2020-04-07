@@ -1,22 +1,19 @@
 /* Sur tous types d'écran, quand la largeur de la fenêtre est comprise entre 1024px et 1280px */
+
 @media all and (min-width: 768px) and (max-width: 1280px) {
     img {
-        width: 50px;
-        height: 50px;;
+        width: 80px;
+        height: 80px;
     }
 
-    #mainNav {
-        visibility: visible;
+    body {
+        background-image: url(../img/fond_tablette.jpg);
     }
 
-    #titreContainer{
-        top: 50%;
-        left: 50%;
-    }
-
-    #titre h1 {
-        font-size: 2.4rem;
-        color: white;
+    h1 {
+        max-width: 550px;
+    font-size: 59px;
+    line-height: 80px;
     }
 
     footer p {
@@ -32,9 +29,8 @@
         visibility: visible;
     }
 
-    #titreContainer{
-        top: 50%;
-        left: 50%;
+    body {
+        background-image: url(../img/fond_mobile.jpg);
     }
     
     img {
@@ -42,9 +38,14 @@
         height: 50px;;
     }
 
+    #buttonCv {
+        visibility: hidden;
+    }
+
     h1 {
-        width: 300px;
-        font-size: 35px;
+        max-width: 300px;
+        font-size: 30px;
+        line-height: 53px;
     }
 
     footer p {
@@ -59,9 +60,8 @@
         visibility: visible;
     }
 
-    #titreContainer{
-        top: 50%;
-        left: 50%;
+    body {
+        background-image: url(../img/fond_mobile.jpg);
     }
 
 	img {
@@ -69,9 +69,14 @@
         height: 50px;;
     }
 
+    #buttonCv {
+        visibility: hidden;
+    }
+
     h1 {
-        width: 200px;
-        font-size: 20px;
+        max-width: 300px;
+        font-size: 30px;
+        line-height: 53px;
     }
 
     footer p {
