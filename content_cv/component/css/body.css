@@ -25,7 +25,8 @@ a {
 }
 
 .logo_cg {
-    margin: 30px;
+    margin-top: 10px;
+    margin-left: 10px;
 }
 
 .logo_cg a img {
@@ -47,5 +48,24 @@ a {
     background-color: white !important;
     color: rgb(0, 152, 198) !important; 
 }
+
+#containerNav {
+    display: flex;
+    height: 200px;
+    flex-direction: column;
+}
+
+#containerNav div:last-child {
+    width: 1000px;
+    height: 100px;
+    margin: auto;
+}
+
+body div:last-child {
+    width: 1100px;
+    margin: 0 auto;
+}
+
+
 
 
