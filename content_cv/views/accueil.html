@@ -1,57 +1,65 @@
-<!-- <section id="accueil" ng-controller="accueilCtrl">
+<section id="accueil" ng-controller="accueilCtrl" class="flex-container">
     <div class="transparence">
         <div>
-            <div id="titreAccueil">
-                <h2>
-                    {{ nomPrenom }}
-                </h2>
-                <h3>{{ metier }}</h3>
+            <h2>
+                {{ nomPrenom }}
+            </h2>
+            <h3>{{ metier }}</h3>
+        </div>
+        <div class="flex-container">
+            <div id="coord-1" class="item">
+                <p class="flex-container">
+                    <a href="mailto:chloegardenat@live.fr"><img src="component/img/email.png" alt="icon email" />&nbsp;</a>
+                    <a id="email" href="mailto:chloegardenat@live.fr">{{ mail }}</a>
+                </p>
+                <p class="flex-container">
+                    <img src="component/img/phone.png" alt="icon téléphone" />
+                    &nbsp;
+                    <span>{{ numero }}</span>
+                </p>
             </div>
-            <div>
-                <div id="containerPresentation">
-                    <div>
-                        <p class="align_item">
-                            <a id="email" href="mailto:chloegardenat@live.fr">{{ mail }}</a>
-                            &nbsp;
-                            &nbsp;
-                            <img src="component/img/email.png" alt="icon email" />
-                        </p>
-                        <p class="align_item">
-                            <span>{{ numero }}</span>
-                            &nbsp;
-                            &nbsp;
-                            <img src="component/img/phone.png" alt="icon téléphone" />
-                        </p>
-                    </div>
-                    <div>
-                        <div id="p_profil">
-                            <img src="component/img/photo_profil_cg.jpg" alt="photo de profil Chloé GARDENAT"
-                                class="photo_profil" />
-                        </div>
-                    </div>
-                    <div>
-                        <p class="align_item">
-                            <img src="component/img/linkedin.png" alt="icon linkedin" />
-                            &nbsp;
-                            <a href="https://www.linkedin.com/in/chlo%C3%A9-gardenat-16a3a6159/" target="_blank">{{ sitePro }}</a>
-                        </p>
-                        <p class="align_item">
-                            <img src="component/img/git_icon.png" alt="icon git" />
-                            &nbsp;
-                            <a href="cv/chloe-gardenat-cv.pdf" target="_blank">
-                                {{ siteProjet }}
-                            </a>
-                        </p>
-                    </div>
-                </div>
+            <div id="photo_profil" class="item flex-container">
+                <img src="component/img/photo_profil_cg.jpg" alt="photo de profil Chloé GARDENAT" />
+            </div>
+            <div class="item">
+                <p class="flex-container">
+                    <a href="https://www.linkedin.com/in/chlo%C3%A9-gardenat-16a3a6159/" target="_blank"><img src="component/img/linkedin.png" alt="icon linkedin" />&nbsp;</a>
+                    <a href="https://www.linkedin.com/in/chlo%C3%A9-gardenat-16a3a6159/" target="_blank">{{ sitePro }}</a>
+                </p>
+                <p class="flex-container">
+                    <a href="https://github.com/TeBounty" target="_blank"><img src="component/img/git_icon.png" alt="icon git" />&nbsp;</a>
+                    <a href="https://github.com/TeBounty" target="_blank">
+                        {{ siteProjet }}
+                    </a>
+                </p>
             </div>
         </div>
-        
-    </div>
-</section> -->
 
-<section id="accueil" ng-controller="accueilCtrl">
-    <div class="transparence">
-
+        <div id="miseEnBouche" class="flex-container">
+            <div class="item border">
+                <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore 
+                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut 
+                    aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum 
+                    dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia 
+                    runt mollit anim id est laborum."
+                </p>
+            </div>
+            <div class="item border">
+                <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore 
+                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut 
+                    aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum 
+                    dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia 
+                    runt mollit anim id est laborum."
+                </p>
+            </div>
+            <div class="item">
+                <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore 
+                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut 
+                    aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum 
+                    dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia 
+                    runt mollit anim id est laborum."
+                </p>
+            </div>
+        </div>
     </div>
 </section>

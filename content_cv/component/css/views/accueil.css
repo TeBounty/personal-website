@@ -1,0 +1,50 @@
+#accueil {
+    justify-content: center;
+}
+
+.transparence {
+    width: 1200px;
+}
+
+.transparence div:first-child {
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 3rem;;
+}
+
+h3 {
+    font-size: 1.8rem;
+}
+
+h2, h3 {
+    text-align: center;
+}
+
+.item {
+    flex: 1 1 0;
+    align-self: center;
+}
+
+#photo_profil {
+    justify-content: center;
+}
+
+#coord-1 p {
+    justify-content: flex-end;
+}
+
+#miseEnBouche div p {
+    margin-top: 20px;
+    padding: 30px;
+    text-align: justify;
+}
+
+.border {
+    border-right: solid 1px;
+}
+
+
+
+

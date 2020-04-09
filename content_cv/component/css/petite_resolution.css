@@ -4,7 +4,7 @@
         width: 800px;
         margin: inherit;
     }
-    
+
     footer {
         min-height: 50px;
     }
@@ -35,13 +35,9 @@
 
 @media all and (min-width: 300px) and (max-width: 382px) {
     #containerNav div:last-child {
-        width: 450px;
+        width: 350px;
     }
 
-    body div:last-child {
-        width: 400px;
-    }
-    
     footer {
         min-height: 25px;
     }
