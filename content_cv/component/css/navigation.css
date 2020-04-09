@@ -45,6 +45,7 @@ label[for="menuBurger"]{
     width:30px;
     height:30px;
     font-size: 25px;
+    color: white;
 }
 
 input#menuBurger:checked ~ .contenu {

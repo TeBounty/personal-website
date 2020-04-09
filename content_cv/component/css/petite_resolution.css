@@ -1,9 +1,10 @@
 /* Sur tous types d'écran, quand la largeur de la fenêtre est comprise entre 1024px et 1280px */
 @media all and (min-width: 768px) and (max-width: 1280px) {
-    body {
-        background-size: auto;
+    #containerNav div:last-child {
+        width: 800px;
+        margin: inherit;
     }
-
+    
     footer {
         min-height: 50px;
     }
@@ -16,8 +17,9 @@
 }
 
 @media all and (min-width: 382px) and (max-width: 768px) {
-    body {
-        background-size: auto;
+    #containerNav div:last-child {
+        width: 500px;
+        margin: inherit;
     }
 
     footer {
@@ -32,15 +34,14 @@
 }
 
 @media all and (min-width: 300px) and (max-width: 382px) {
-    body {
-        background-image: none;
-        background-color: rgb(100, 100, 100);
+    #containerNav div:last-child {
+        width: 450px;
     }
 
-    #container {
-        justify-content: flex-start;
+    body div:last-child {
+        width: 400px;
     }
-
+    
     footer {
         min-height: 25px;
     }
