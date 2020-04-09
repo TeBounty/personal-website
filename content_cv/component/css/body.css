@@ -26,7 +26,7 @@ a {
 
 .logo_cg {
     margin-top: 10px;
-    margin-left: 10px;
+    margin-left: 15px;
 }
 
 .logo_cg a img {
@@ -51,14 +51,14 @@ a {
 
 #containerNav {
     display: flex;
-    height: 200px;
+    height: 180px;
     flex-direction: column;
 }
 
 #containerNav div:last-child {
     width: 1100px;
-    height: 100px;
-    margin: auto;
+    height: 50px;
+    margin: 0 auto;
 }
 
 .flex-container {

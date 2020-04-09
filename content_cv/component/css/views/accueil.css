@@ -6,7 +6,7 @@
     width: 1200px;
 }
 
-.transparence div:first-child {
+#titreAccueil {
     margin-bottom: 20px;
 }
 
@@ -35,14 +35,29 @@ h2, h3 {
     justify-content: flex-end;
 }
 
+#miseEnBouche {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
 #miseEnBouche div p {
-    margin-top: 20px;
-    padding: 30px;
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
     text-align: justify;
 }
 
 .border {
     border-right: solid 1px;
+}
+
+#printerCv {
+    justify-content: flex-end;
+}
+
+h3 {
+    margin-top: 20px;
+    text-align: center;
 }
 
 
