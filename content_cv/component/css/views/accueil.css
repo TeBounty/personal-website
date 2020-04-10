@@ -7,6 +7,7 @@
 }
 
 #titreAccueil {
+    margin-top: 20px;
     margin-bottom: 20px;
 }
 
@@ -23,6 +24,7 @@ h2, h3 {
 }
 
 .item {
+    width: 300px;
     flex: 1 1 0;
     align-self: center;
 }
@@ -55,7 +57,7 @@ h2, h3 {
     justify-content: flex-end;
 }
 
-h3 {
+#miseEnBouche h3 {
     margin-top: 20px;
     text-align: center;
 }
