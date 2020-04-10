@@ -2,9 +2,37 @@
 @media all and (min-width: 768px) and (max-width: 1280px) {
     #containerNav div:last-child {
         width: 800px;
-        margin: inherit;
+        margin: 0;
     }
-    
+
+    .border {
+        border-bottom: none !important;
+    }
+
+    #miseEnBouche::before, #miseEnBouche::after {
+        content: '';
+        width: 100%;
+        order: 1;
+    }
+
+    #miseEnBouche div:nth-child(2) {
+        border-right: none;
+    }
+
+    #miseEnBouche div:nth-child(n + 3) {
+        order: 1;
+        margin-top: 20px;
+    }
+
+    #miseEnBouche div {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    #printerCv {
+        height: 80px;
+    }
+
     footer {
         min-height: 50px;
     }
@@ -16,10 +44,34 @@
     }
 }
 
-@media all and (min-width: 382px) and (max-width: 768px) {
+@media all and (min-width: 382px) and (max-width: 767px) {
     #containerNav div:last-child {
         width: 500px;
-        margin: inherit;
+    }
+
+    #coord-1 p {
+        justify-content: flex-start !important;
+    }
+
+    .item {
+        flex: 1 auto !important;
+    }
+
+    .border {
+        border-bottom: solid 1px;
+        border-right: none !important;
+    }
+
+    #miseEnBouche {
+        margin-bottom: 0px;
+    }
+
+    #miseEnBouche div p {
+        padding-bottom: 30px !important;
+    }
+
+    #printerCv {
+        height: 50px;
     }
 
     footer {
@@ -35,13 +87,34 @@
 
 @media all and (min-width: 300px) and (max-width: 382px) {
     #containerNav div:last-child {
-        width: 450px;
+        width: 350px;
     }
 
-    body div:last-child {
-        width: 400px;
+    #coord-1 p {
+        justify-content: flex-start !important;
     }
-    
+
+    .item {
+        flex: 1 auto !important;
+    }
+
+    .border {
+        border-bottom: solid 1px;
+        border-right: none !important;
+    }
+
+    #miseEnBouche {
+        margin-bottom: 0px;
+    }
+
+    #miseEnBouche div p {
+        padding-bottom: 30px !important;
+    }
+
+    #printerCv {
+        height: 50px;
+    }
+
     footer {
         min-height: 25px;
     }
