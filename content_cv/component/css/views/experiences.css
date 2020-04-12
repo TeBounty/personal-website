@@ -1,0 +1,74 @@
+#experiences {
+    justify-content: center;
+}
+
+#contentExp {
+    justify-content: space-around;
+}
+
+#contentExp div {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#contentExp div:nth-child(2) {
+    align-self: center;
+}
+
+.icon_exp {
+    background-image: url(../../img/experiences_icon.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+}
+
+#contentExp div div:first-child {
+    margin-top: 20px;
+}
+
+#contentExp div div h2 {
+    margin-bottom: 5px;
+    font-size: 2.2rem;
+    color: white;
+}
+
+#contentExp div div h4 {
+    font-size: 1.5rem;
+    color: white;
+}
+
+#contentExp div:first-child, #contentExp div:nth-child(3){
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.itemE {
+    padding: 15px;
+    width: 400px;
+    margin-bottom: 30px;
+    cursor: pointer;
+    background-color: rgba(255, 61, 2, 0.541);
+}
+
+.itemE:hover {
+    background-color: rgba(0, 0, 0, 0.301);
+}
+#plusInfo {
+    width: 300px;
+    height: 400px;
+    background-color: white;
+    position: absolute;
+    align-self: center;
+    display: none;
+}
+
+#plusInfo img {
+    cursor: pointer;
+}
+
+#plusInfo div {
+    padding: 10px;
+    text-align: start;
+}
+

@@ -40,6 +40,7 @@ a {
 }
 
 .transparence {
+    width: 1200px;
     padding: 10px;
     background-color: rgba(255, 255, 255, 0.788);
 }
@@ -64,6 +65,15 @@ a {
 .flex-container {
     display: flex; 
     flex-flow: row wrap;
+}
+
+.center {
+    text-align: center;
+}
+
+#printerCv {
+    justify-content: flex-end;
+    align-items: center;
 }
 
 
