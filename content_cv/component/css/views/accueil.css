@@ -2,10 +2,6 @@
     justify-content: center;
 }
 
-.transparence {
-    width: 1200px;
-}
-
 #titreAccueil {
     margin-top: 20px;
     margin-bottom: 20px;
@@ -23,7 +19,7 @@ h2, h3 {
     text-align: center;
 }
 
-.item {
+.itemA {
     width: 300px;
     flex: 1 1 0;
     align-self: center;
@@ -51,10 +47,6 @@ h2, h3 {
 
 .border {
     border-right: solid 1px;
-}
-
-#printerCv {
-    justify-content: flex-end;
 }
 
 #miseEnBouche h3 {
