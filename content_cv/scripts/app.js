@@ -17,10 +17,10 @@ var CvShow = angular.module('CvShow',[
             controller: 'accueilCtrl',
             activetab: 'accueil'
         })
-        .when('/home', {
-            templateUrl: 'views/home.html',
-            controller: 'homeCtrl',
-            activetab: 'home'
+        .when('/profil', {
+            templateUrl: 'views/profil.html',
+            controller: 'profilCtrl',
+            activetab: 'profil'
         })
         .when('/competences', {
             templateUrl: 'views/competences.html',

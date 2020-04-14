@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('CvShow').controller("homeCtrl", function ($scope, $route) {
+angular.module('CvShow').controller("profilCtrl", function ($scope, $route) {
     $scope.$route = $route;
     $scope.title = "Chloé GARDENAT";
     $scope.soustitle = "Développeuse Web Logiciel";
