@@ -2,12 +2,15 @@ window.onload = init;
 
 function init() {
     var elements = document.querySelectorAll('#contentExp div div');
+    
     positionDivInfo(elements);
 }
 
 function positionDivInfo(elements) {
+    
     for (const element of elements) {
         element.addEventListener("click", function () {
+            
             var positions = recupererPositionBouton(element);
 
             // Placer la div d'info en fonction de la position de la div cliquer
