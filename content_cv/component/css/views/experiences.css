@@ -54,13 +54,22 @@
 .itemE:hover {
     background-color: rgba(0, 0, 0, 0.301);
 }
+
+.activeItemE {
+    background-color: rgba(0, 0, 0, 0.301);
+}
+
+.focusDiv {
+    background-color: rgba(0, 0, 0, 0.301);
+}
+
 #plusInfo {
     width: 300px;
-    height: 400px;
-    background-color: white;
+    height: 250px;
+    background-color: rgba(0, 0, 0, 0.301);
     position: absolute;
-    align-self: center;
     display: none;
+    border-radius: 8px;
 }
 
 #plusInfo img {
@@ -71,4 +80,5 @@
     padding: 10px;
     text-align: start;
 }
+
 

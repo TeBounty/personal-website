@@ -1,70 +1,40 @@
-function start(id) {
-    var text = "";
-    var divInfo = document.querySelector("#plusInfo");
-    var contenu = document.querySelector("#plusInfo div");
+window.onload = start;
 
-    switch (id) {
-        case 'premierExp':
-            text = "<p>Conception d'une nouvelle fonctionnalité dans le portail interne</br>Développement du front-end (html, css, javascript)</br>Développement du back-end (C#, bases de données, procédure stockée)</p>";
-            contenu.innerHTML = text;
-            afficheDivInfo(divInfo);
-            break;
-        case 'deuxiemeExp':
-            afficheDivInfo(divInfo);
-            text = "<p>Conception d'une nouvelle fonctionnalité dans le portail interne</br>Développement du front-end (html, css, javascript)</br>Développement du back-end (C#, bases de données, procédure stockée)</p>";
-            contenu.innerHTML = text;
-            break;
-        case 'troisiemeExp':
-            afficheDivInfo(divInfo);
-            text = "<p>Conception d'une nouvelle fonctionnalité dans le portail interne</br>Développement du front-end (html, css, javascript)</br>Développement du back-end (C#, bases de données, procédure stockée)</p>";
-            contenu.innerHTML = text;
-            break;
-        case 'quatriemeExp':
-            afficheDivInfo(divInfo);
-            text = "<p>Conception d'une nouvelle fonctionnalité dans le portail interne</br>Développement du front-end (html, css, javascript)</br>Développement du back-end (C#, bases de données, procédure stockée)</p>";
-            contenu.innerHTML = text;
-            break;
-        case 'cinquiemeExp':
-            afficheDivInfo(divInfo);
-            text = "<p>Conception d'une nouvelle fonctionnalité dans le portail interne</br>Développement du front-end (html, css, javascript)</br>Développement du back-end (C#, bases de données, procédure stockée)</p>";
-            contenu.innerHTML = text;
-            break;
-        case 'sixiemeExp':
-            afficheDivInfo(divInfo);
-            text = "<p>Conception d'une nouvelle fonctionnalité dans le portail interne</br>Développement du front-end (html, css, javascript)</br>Développement du back-end (C#, bases de données, procédure stockée)</p>";
-            contenu.innerHTML = text;
-            break;
-        case 'septiemeExp':
-            afficheDivInfo(divInfo);
-            text = "<p>Conception d'une nouvelle fonctionnalité dans le portail interne</br>Développement du front-end (html, css, javascript)</br>Développement du back-end (C#, bases de données, procédure stockée)</p>";
-            contenu.innerHTML = text;
-            break;
-        case 'huitiemeExp':
-            afficheDivInfo(divInfo);
-            text = "<p>Conception d'une nouvelle fonctionnalité dans le portail interne</br>Développement du front-end (html, css, javascript)</br>Développement du back-end (C#, bases de données, procédure stockée)</p>";
-            contenu.innerHTML = text;
-            break;
-        case 'neuviemeExp':
-            afficheDivInfo(divInfo);
-            text = "<p>Conception d'une nouvelle fonctionnalité dans le portail interne</br>Développement du front-end (html, css, javascript)</br>Développement du back-end (C#, bases de données, procédure stockée)</p>";
-            contenu.innerHTML = text;
-            break;
-        case 'dixiemeExp':
-            afficheDivInfo(divInfo);
-            text = "<p>Conception d'une nouvelle fonctionnalité dans le portail interne</br>Développement du front-end (html, css, javascript)</br>Développement du back-end (C#, bases de données, procédure stockée)</p>";
-            contenu.innerHTML = text;
-            break;
+function start() {
+    var elements = document.querySelectorAll('#contentExp div div');
+
+    for (const element of elements) {
+        element.addEventListener("click", function () {
+            var positions = recupererPositionBouton(element);
+
+            // Placer la div d'info en fonction de la position de la div cliquer
+            placementDivInfo = document.querySelector("#plusInfo");
+            placementDivInfo.style.left = positions.clientX + 'px';
+            placementDivInfo.style.top = positions.clientY + 'px';
+            placementDivInfo.style.display = "block";
+        });
     }
-};
-
-function afficheDivInfo(divInfo) {
-    // div.style.display = "block";
-    $(divInfo).toggle("slow");
 }
 
+// Récupérer les coordonnées des boutons
+function recupererPositionBouton(a) {
+    var b = a.getBoundingClientRect();
+    return {
+        clientX: a.offsetLeft,
+        clientY: a.offsetTop,
+        viewportX: (b.x || b.left),
+        viewportY: (b.y || b.top)
+    }
+}
+
+// Ferme la div si on clique sur la croix
 function closeDiv() {
     document.querySelector("#plusInfo").style.display = "none";
+    // element.classList.add("activeItemE");
 }
+
+
+
 
 
 
