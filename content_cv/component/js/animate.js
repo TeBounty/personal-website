@@ -4,11 +4,8 @@ window.onload = start;
 
 function start () {
   function timer(p,n) {
-
     n=Math.min(n,p.attr("aria-valuenow"));
-
     p.css("width", n + "%").text(n+"% Complete");
-
     if(n < p.attr("aria-valuenow")) {
 
       setTimeout(function() {
@@ -16,9 +13,7 @@ function start () {
         timer(p, n + 10);
 
       }, 200);
-
     }
-
   }
 
   $(".progress-bar").each(function(i,pb){
@@ -26,4 +21,5 @@ function start () {
     timer($(pb),0); 
 
   });
+  
 }
