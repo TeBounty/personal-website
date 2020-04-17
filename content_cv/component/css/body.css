@@ -67,10 +67,6 @@ a {
     flex-flow: row wrap;
 }
 
-.center {
-    text-align: center;
-}
-
 #printerCv {
     justify-content: flex-end;
     align-items: center;

@@ -40,12 +40,12 @@
 
 #contentExp div:first-child, #contentExp div:nth-child(3){
     flex-direction: column;
-    justify-content: space-between;
 }
 
 .itemE {
     padding: 15px;
     width: 400px;
+    height: 100px;
     margin-bottom: 30px;
     cursor: pointer;
     background-color: rgba(255, 61, 2, 0.541);
@@ -64,21 +64,37 @@
 }
 
 #plusInfo {
-    width: 300px;
+    width: 400px;
     height: 250px;
-    background-color: rgba(0, 0, 0, 0.301);
+    background-color: white;
     position: absolute;
     display: none;
-    border-radius: 8px;
 }
 
 #plusInfo img {
     cursor: pointer;
 }
 
+
 #plusInfo div {
     padding: 10px;
     text-align: start;
 }
+
+.centerE {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.centerE div {
+    margin-top: 0 !important;
+}
+
+
+
+
 
 
