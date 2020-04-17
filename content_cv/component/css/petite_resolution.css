@@ -38,6 +38,11 @@
         display: none;
     }
     /** Experiences **/
+
+    #plusInfo {
+        width: 330px !important;
+    }
+    
     .itemE {
         width: 330px !important;
         margin-bottom: 15px !important;
@@ -98,6 +103,11 @@
         display: none;
     }
     /** Experiences **/
+
+    #plusInfo {
+        width: 330px !important;
+    } 
+
     .itemE {
         width: 330px !important;
         margin-bottom: 15px !important;
@@ -149,6 +159,11 @@
         display: none;
     }
     /** Experiences **/
+
+    #plusInfo {
+        width: 330px !important;
+    }
+
     .itemE {
         width: 330px !important;
         margin-bottom: 15px !important;

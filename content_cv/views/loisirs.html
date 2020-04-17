@@ -1,19 +1,50 @@
-<section id="loisirs" ng-controller="loisirsCtrl" class="flex-container">
+<section id="loisirs" ng-controller="loisirsCtrl" class="flex-container" style="height: 500px;">
     <div class="transparence">
-        <!-- <div>
-            <div>
+        <div id="contentLoisirs" class="flex-container">
+            <div class="itemL">
                 <h3>Informatique</h3>
-                <img src="component/img/clavier.jpeg" alt="">
+                <div id="slider">
+                    <input type="radio" id="show_slide1" name="slider_commands">
+                    <input type="radio" id="show_slide2" name="slider_commands">
+                    <input type="radio" id="show_slide3" name="slider_commands">
+                    <input type="radio" id="play_slider" name="slider_commands">
+
+                    <div id="slides">
+                        <figure id="slide1">
+                            <div class="zoro"></div>
+                            <figcaption>Village au bord d'un lac</figcaption>
+                        </figure>
+                        <figure id="slide2">
+                            <div style="background-color: crimson; width: 500px; height: 500px;"></div>
+                            <figcaption>Couleur Crimson</figcaption>
+                        </figure>
+                        <figure id="slide3">
+                            <div style="background-color: chocolate; width: 500px; height: 500px;"></div>
+                            <figcaption>Couleur chocolate</figcaption>
+                        </figure>
+                    </div>
+                    <nav>
+                        <ul class="dots_commands">
+                            <li><label for="show_slide1">Slide 1</label></li>
+                            <li><label for="show_slide2">Slide 2</label></li>
+                            <li><label for="show_slide3">Slide 3</label></li>
+                        </ul>
+                        <!-- <label for="play_slider" aria-label="Play" id="play" title="Play">Play</label> -->
+                    </nav>
+                </div>
             </div>
-            <div>
+            <div class="itemL">
                 <h3>Dessin</h3>
-                <a href="https://mangaspartage.jimdo.com/" target="_blank"><img src="component/img/dessin.jpeg"
-                        alt=""></a>
+                <div></div>
             </div>
-            <div>
-                <h3>Jeux vidéos</h3>
-                <img src="component/img/jeux-video.jpg" alt="">
+            <div class="itemL">
+                <h3>Manga</h3>
+                <div></div>
             </div>
-        </div> -->
+            <div class="itemL">
+                <h3>Football</h3>
+                <div></div>
+            </div>
+        </div>
     </div>
 </section>
