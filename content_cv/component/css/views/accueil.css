@@ -54,6 +54,13 @@ h2, h3 {
     text-align: center;
 }
 
+.email {
+    background-image: url(../../img/email.png);
+    background-repeat: no-repeat;
+}
 
+.email:hover {
+    background-image: url(../../img/email_bleu.png);
+}
 
 
