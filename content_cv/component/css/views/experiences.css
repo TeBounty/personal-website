@@ -45,15 +45,15 @@
 .itemE {
     padding: 15px;
     width: 400px;
-    height: 100px;
+    height: 150px;
     margin-bottom: 30px;
     cursor: pointer;
-    background-color: rgba(255, 61, 2, 0.541);
+    background-color: #2d2d2d;
 }
 
-.itemE:hover {
+/* .itemE:hover {
     background-color: rgba(0, 0, 0, 0.301);
-}
+} */
 
 .activeItemE {
     background-color: rgba(0, 0, 0, 0.301);
@@ -65,8 +65,8 @@
 
 #plusInfo {
     width: 400px;
-    height: 250px;
-    background-color: white;
+    height: 200px;
+    background-color: #2d2d2d;
     position: absolute;
     display: none;
 }
@@ -81,6 +81,11 @@
     text-align: start;
 }
 
+#plusInfo span, ul {
+    font-size: 1.5em;
+    color: wheat;
+}
+
 .centerE {
     text-align: center;
     display: flex;
@@ -92,6 +97,8 @@
 .centerE div {
     margin-top: 0 !important;
 }
+
+
 
 
 

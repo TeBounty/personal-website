@@ -1,3 +1,91 @@
 #competences {
     justify-content: center;
 }
+
+#contentComp {
+    justify-content: space-around;
+    margin: 20px;
+}
+
+#contentComp div {
+    margin-bottom: 20px;
+}
+
+/** Cadres compétences **/
+
+#contentCadre1 {
+    background-color: rgba(181, 181, 181, 0.918);
+    padding: 20px;
+    height: 300px;
+    width: 500px;
+    box-sizing: border-box;
+    position: relative;
+    z-index: 2;
+    margin-top: 500px;
+    transition: all .5s linear;
+}
+
+#contentCadre2 {
+    background-color: rgba(181, 181, 181, 0.918);
+    padding: 20px;
+    height: 300px;
+    width: 500px;
+    box-sizing: border-box;
+    position: relative;
+    z-index: 2;
+    margin-top: 500px;
+    transition: all .5s linear;
+}
+
+#contentCadre3 {
+    background-color: rgba(181, 181, 181, 0.918);
+    padding: 20px;
+    height: 300px;
+    width: 500px;
+    box-sizing: border-box;
+    position: relative;
+    z-index: 2;
+    margin-top: 500px;
+    transition: all .5s linear;
+}
+
+#cadre1 {
+    border: 2px solid black;
+    height: 300px;
+    max-width: 500px;
+    overflow: hidden;
+    background-image: url(../../img/knowledge.jpg);
+    background-size: 100% 100%;
+}
+
+#cadre2 {
+    border: 2px solid black;
+    height: 300px;
+    width: 500px;
+    overflow: hidden;
+    background-image: url(../../img/knowledge_tools.jpg);
+    background-size: 100% 100%;
+}
+
+#cadre3 {
+    border: 2px solid black;
+    height: 300px;
+    width: 500px;
+    overflow: hidden;
+    background-image: url(../../img/language.png);
+    background-size: 100% 100%;
+}
+
+#cadre1:hover #contentCadre1 {
+    margin-top: 0px;
+}
+
+#cadre2:hover #contentCadre2 {
+    margin-top: 0px;
+}
+
+#cadre3:hover #contentCadre3 {
+    margin-top: 0px;
+}
+
+/** Etoiles **/
