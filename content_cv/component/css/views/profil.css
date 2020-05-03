@@ -6,7 +6,7 @@
     font-family: sans-serif;
   }
   .main-timeline .timeline-content {
-    background: linear-gradient(to right, #6c4adc, #9c36ba);
+    background: linear-gradient(to right, rgb(0, 152, 198), rgb(152, 231, 255));
     padding: 20px 20px 20px 150px;
     min-height: 150px;
     display: block;
@@ -18,7 +18,7 @@
   }
   .main-timeline .timeline-content:before {
     content: "";
-    background: #fff;
+    background: rgba(255, 255, 255, 0.788);
     position: absolute;
     top: 7px;
     right: 7px;
@@ -28,7 +28,7 @@
   }
   .main-timeline .timeline-icon {
     color: #fff;
-    background: linear-gradient(to bottom, #6c4adc, #9c36ba);
+    background: linear-gradient(to bottom, rgb(0, 152, 198), rgb(152, 231, 255));
     font-size: 60px;
     text-align: center;
     line-height: 130px;
@@ -41,11 +41,12 @@
     clip-path: polygon(100% 0, 100% 70%, 50% 100%, 0 70%, 0 0);
   }
   .main-timeline .title {
-    color: #6c4adc;
+    color: rgb(0, 152, 198);
     font-size: 22px;
     font-weight: 800;
     text-transform: uppercase;
     margin: 0 0 5px;
+    text-align: inherit;
   }
   .main-timeline .description {
     color: #666;
@@ -65,31 +66,31 @@
     right: 0;
   }
   .main-timeline .timeline:nth-child(4n + 2) .timeline-icon {
-    background: linear-gradient(to bottom, #9c36ba, #e81c7e);
+    background: linear-gradient(to bottom, rgb(157, 231, 253), rgb(149, 180, 189));
   }
   .main-timeline .timeline:nth-child(4n + 2) .timeline-content {
-    background: linear-gradient(to right, #e81c7e, #9c36ba);
+    background: linear-gradient(to right, rgb(114, 114, 114), rgb(152, 231, 255));
   }
   .main-timeline .timeline:nth-child(4n + 2) .title {
-    color: #9c36ba;
+    color: rgb(121, 169, 184);
   }
   .main-timeline .timeline:nth-child(4n + 3) .timeline-icon {
-    background: linear-gradient(to bottom, #e81c7e, #ee5167);
+    background: linear-gradient(to bottom, #474747, #818181);
   }
   .main-timeline .timeline:nth-child(4n + 3) .timeline-content {
-    background: linear-gradient(to right, #e81c7e, #ee5167);
+    background: linear-gradient(to right, #474747, #ec814f);
   }
   .main-timeline .timeline:nth-child(4n + 3) .title {
-    color: #e81c7e;
+    color: #474747;
   }
   .main-timeline .timeline:nth-child(4n + 4) .timeline-icon {
-    background: linear-gradient(to bottom, #ee5167, #fa964a);
+    background: linear-gradient(to bottom, #ec814f, #fa964a);
   }
   .main-timeline .timeline:nth-child(4n + 4) .timeline-content {
-    background: linear-gradient(to right, #fa964a, #ee5167);
+    background: linear-gradient(to right, #f79f5c, #ec814f);
   }
   .main-timeline .timeline:nth-child(4n + 4) .title {
-    color: #ee5167;
+    color: #ec814f;
   }
   
   @media screen and (max-width: 576px) {

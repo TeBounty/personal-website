@@ -1,61 +1,78 @@
 <section id="accueil" ng-controller="accueilCtrl" class="flex-container">
     <div class="transparence">
-        <div id="titreAccueil">
-            <h2>
-                {{ nomPrenom }}
-            </h2>
-            <h3>{{ metier }}</h3>
-        </div>
-        <div class="flex-container">
-            <div id="coord-1" class="itemA">
-                <p class="flex-container">
-                    <a href="mailto:chloegardenat@live.fr" class="email"><img src="component/img/email.png" /></a>
-                </p>
-                <p class="flex-container">
-                    <a href="tel:0623378546"><img src="component/img/icon_phone.png" alt="icône téléphone" /></a>
-                    <span></span>
-                </p>
-            </div>
-            <div id="photo_profil" class="itemA flex-container">
-                <img src="component/img/photo_profil_cg.jpg" alt="photo de profil Chloé GARDENAT" />
-            </div>
-            <div id="coord-2" class="itemA">
-                <p class="flex-container">
-                    <a href="https://www.linkedin.com/in/chlo%C3%A9-gardenat-16a3a6159/" target="_blank"><img src="component/img/icon_linkedin.png" alt="icône linkedin" /></a>
-                </p>
-                <p class="flex-container">
-                    <a href="https://github.com/TeBounty" target="_blank"><img src="component/img/git_icon.png" alt="icône git" /></a>
-                </p>
-            </div>
-            <!-- <div class="follow">
-                <div class="icon"><a href="mailto:chloegardenat@live.fr" class="email">&commat;</a></div>
-                <div class="icon">&sung;</div>
-                <div class="icon">&oplus;</div>
-                <div class="icon">&phone;</div>
-                <div class="label">Contactez-moi</div>
-            </div> -->
-        </div>
-        <div id="miseEnBouche" class="flex-container">
-            <div class="itemA border">
-                <a href="#!/experiences"><h3>Rechercher</h3></a>
-                <p>{{ contentRechercher }}</p>
-            </div>
-            <div class="itemA border">
-                <a href="#!/loisirs"><h3>Aimer</h3></a>
-                <p>{{ contentAimer }}</p>
-            </div>
-            <div class="itemA border">
-                <a href="#!/competences"><h3>Savoir</h3></a>
-                <p>{{ contentSavoir }}</p>
-            </div>
-            <div class="itemA">
-                <a href="#!/profil"><h3>&Ecirc;tre</h3></a>
-                <p>{{ contentEtre }}</p>
-            </div>
-        </div>
 
-        <div id="printerCv" class="flex-container">
-            <a href="doc_site/chloe-gardenat-cv.pdf" target="_blank"><img src="component/img/printer.png"/></a>
+        <div id="containerAccueil" class="flex-container">
+            <div id="contentGeneral" class="flex-container">
+                <div id="titreAccueil">
+                    <h2>
+                        {{ nomPrenom }}
+                    </h2>
+                    <h3>{{ metier }}</h3>
+                </div>
+                <div id="photo_profil" class="flex-container">
+                    <img src="component/img/photo_profil_cg.jpg" alt="photo de profil Chloé GARDENAT" />
+                </div>
+                <div id="coord-1" class="flex-container itemA">
+                    <p class="flex-container">
+                        <a href="https://www.linkedin.com/in/chlo%C3%A9-gardenat-16a3a6159/" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+                    </p>
+                    <p class="flex-container">
+                        <a href="https://github.com/TeBounty" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+                    </p>
+                    <p class="flex-container">
+                        <a href="mailto:chloegardenat@live.fr" class="email"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+                    </p>
+                    <p class="flex-container">
+                        <a href="tel:0623378546"><i class="fa fa-phone-square" aria-hidden="true"></i></a>
+                        <span></span>
+                    </p>
+                </div>
+
+                <!-- <div class="follow">
+                    <div class="icon"><a href="mailto:chloegardenat@live.fr" class="email">&commat;</a></div>
+                    <div class="icon">&sung;</div>
+                    <div class="icon">&oplus;</div>
+                    <div class="icon">&phone;</div>
+                    <div class="label">Contactez-moi</div>
+                </div> -->
+            </div>
+            <div id="miseEnBouche" class="flex-container">
+                <div>
+                    <div class="itemA">
+                        <a href="#!/experiences">
+                            <h3>Je recherche</h3>
+                        </a>
+                        <p id="contentRecherche">{{ contentRechercher }}</p>
+                    </div>
+                    <div class="itemA">
+                        <a href="#!/loisirs">
+                            <h3>J'aime</h3>
+                        </a>
+                        <p>{{ contentAimer }}</p>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="itemA">
+                        <a href="#!/competences">
+                            <h3>Mes connaissances</h3>
+                        </a>
+                        <p>{{ contentSavoir }}</p>
+                    </div>
+                    <div class="itemA">
+                        <a href="#!/profil">
+                            <h3>Je suis</h3>
+                        </a>
+                        <p>{{ contentEtre }}</p>
+                    </div>
+                </div>
+
+            </div>
+
+            <div id="printerCv" class="flex-container">
+                <a href="doc_site/chloe-gardenat-cv.pdf" target="_blank"><i class="fa fa-download" aria-hidden="true"></i></a>
+            </div>
         </div>
     </div>
+
 </section>

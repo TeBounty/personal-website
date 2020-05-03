@@ -48,12 +48,14 @@ a {
 }
 
 .transparence {
+    position: relative;
     display: flex;
-    flex-direction: column;
     justify-content: center;
+    flex-direction: column;
     width: 1200px;
     min-height: 700px;
     padding: 10px;
+    margin-bottom: 30px;
     background-color: rgba(255, 255, 255, 0.788);
 }
 
@@ -79,9 +81,12 @@ a {
     flex-flow: row wrap;
 }
 
-#printerCv {
-    justify-content: flex-end;
-    align-items: center;
+#printerCv {    
+    position: absolute;
+    margin-bottom: 5px;
+    bottom: 0;
+    right: 10px;
+    z-index: 99;
 }
 
 /** Retour site **/
@@ -90,7 +95,17 @@ a {
     display: flex;
     position: fixed;
     bottom: 0;
-    min-height: 120px;
+    min-height: 98px;
+    z-index: 99;
+    margin-left: 15px;
+}
+
+#retourSite a i {
+    color: rgb(0, 152, 198);
+}
+
+#retourSite a i:hover {
+    color: white;
 }
 
 

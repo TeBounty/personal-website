@@ -19,23 +19,37 @@ h2, h3 {
     text-align: center;
 }
 
+/** Contenu **/
+#containerAccueil {
+    justify-content: space-around;
+}
+
+#contentGeneral {
+    width: 460px;
+    flex-direction: column;
+    align-items: center;
+    border-right: 1px solid black;
+}
+
 .itemA {
     width: 300px;
-    flex: 1 1 0;
-    align-self: center;
+}
+
+.itemA a h3:hover {
+    text-decoration: underline;
+    color: rgb(0, 152, 198);
 }
 
 #photo_profil {
     justify-content: center;
 }
 
-#coord-1 p {
-    justify-content: flex-end;
+#coord-1 {
+    justify-content: space-evenly;
 }
 
 #miseEnBouche {
-    margin-top: 10px;
-    margin-bottom: 20px;
+    height: 500px;
 }
 
 #miseEnBouche div {
@@ -44,9 +58,11 @@ h2, h3 {
 
 #miseEnBouche div p {
     padding-top: 10px;
-    padding-right: 20px;
-    padding-left: 20px;
     text-align: justify;
+}
+
+#miseEnBouche div div {
+    padding-right: 40px;
 }
 
 .border {
@@ -57,6 +73,38 @@ h2, h3 {
     margin-top: 20px;
     text-align: center;
 }
+
+i {
+    font-size: 48px !important;
+}
+
+i:hover {
+    color: rgb(0, 152, 198);
+}
+
+/** Animation text taper **/
+
+/* .text_taper {
+    margin: 10px 0 0 10px;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: type 4s steps(60, end); 
+  }
+  
+  .text_taper:nth-child(2){
+    animation: type2 8s steps(60, end);
+  }
+  
+  @keyframes type{ 
+    from { width: 0; } 
+  } 
+  
+  @keyframes type2{
+    0%{width: 0;}
+    50%{width: 0;}
+    100%{ width: 100; } 
+  }  */
+
 
 /** Test **/
 

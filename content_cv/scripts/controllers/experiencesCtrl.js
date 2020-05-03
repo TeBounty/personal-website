@@ -28,6 +28,7 @@ angular.module('CvShow').controller("experiencesCtrl", function($scope, $route) 
 // Récupérer les coordonnées des boutons
 function recupererPositionBouton(a) {
     var b = a.getBoundingClientRect();
+    console.log(a);
     return {
         clientX: a.offsetLeft,
         clientY: a.offsetTop

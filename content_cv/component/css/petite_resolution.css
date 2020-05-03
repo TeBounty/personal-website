@@ -239,4 +239,9 @@
     #contentCadre1, #contentCadre2, #contentCadre3, #cadre1, #cadre2, #cadre3 {
         width: 350px !important;
     }
+
+    /** Profil **/
+    .main-timeline .description {
+        text-align: center;
+      }
 }
