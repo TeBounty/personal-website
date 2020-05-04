@@ -19,20 +19,21 @@ h2, h3 {
     text-align: center;
 }
 
+
 /** Contenu **/
 #containerAccueil {
     justify-content: space-around;
+    min-height: 500px;
 }
 
 #contentGeneral {
-    width: 460px;
+    max-width: 430px;
     flex-direction: column;
     align-items: center;
-    border-right: 1px solid black;
 }
 
 .itemA {
-    width: 300px;
+    width: 315px;
 }
 
 .itemA a h3:hover {
@@ -44,24 +45,21 @@ h2, h3 {
     justify-content: center;
 }
 
+.separator {
+  border-right: 1px solid black;
+}
+
 #coord-1 {
     justify-content: space-evenly;
 }
 
-#miseEnBouche {
-    height: 500px;
-}
-
-#miseEnBouche div {
-    height: 250px;
-}
-
 #miseEnBouche div p {
-    padding-top: 10px;
+    padding: 10px;
     text-align: justify;
+    min-height: 250px;
 }
 
-#miseEnBouche div div {
+#miseEnBouche div:first-child div {
     padding-right: 40px;
 }
 
@@ -70,7 +68,7 @@ h2, h3 {
 }
 
 #miseEnBouche h3 {
-    margin-top: 20px;
+    margin-top: 10px;
     text-align: center;
 }
 

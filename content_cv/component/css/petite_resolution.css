@@ -14,25 +14,21 @@
         text-align: center;
     }
     /** accueil **/
-    .border {
-        border-bottom: none !important;
+
+    .separator {
+        border-right: none !important;
     }
-    #miseEnBouche::before,
-    #miseEnBouche::after {
-        content: '';
-        width: 100%;
-        order: 1;
+
+    #containerAccueil {
+        justify-content: center !important;
     }
-    #miseEnBouche div:nth-child(2) {
-        border-right: none;
+
+    #contentGeneral {
+        margin-bottom: 20px;
     }
-    #miseEnBouche div:nth-child(n + 3) {
-        order: 1;
-        margin-top: 20px;
-    }
-    #miseEnBouche div {
-        padding-left: 30px;
-        padding-right: 30px;
+
+    #miseEnBouche {
+        margin-bottom: 20px;
     }
     
     /** Experiences **/
@@ -102,21 +98,13 @@
         text-align: center;
     }
     /** accueil **/
-    #coord-1 p {
-        justify-content: flex-start !important;
-    }
-    .itemA {
-        flex: 1 auto !important;
-    }
-    .border {
-        border-bottom: solid 1px;
+
+    .separator {
         border-right: none !important;
     }
-    #miseEnBouche {
-        margin-bottom: 0px;
-    }
-    #miseEnBouche div p {
-        padding-bottom: 30px !important;
+
+    #containerAccueil {
+        justify-content: center !important;
     }
 
     /** Experiences **/
@@ -151,6 +139,8 @@
 }
 
 @media all and (min-width: 300px) and (max-width: 382px) {
+    /** Page principale **/
+
     #containerNav div:last-child {
         width: 350px;
     }
@@ -163,40 +153,31 @@
         color: white;
         text-align: center;
     }
+
     /** accueil **/
-    #coord-1 {
-        order: 2;
-        width: 170px;
+
+    #containerAccueil {
+        justify-content: center !important;
     }
 
-    #photo_profil {
-        order: 1;
+    #contentGeneral {
+        margin-bottom: 20px;
     }
 
-    #coord-2 {
-        order: 3;
-        width: 170px;
-    }
-
-    #coord-1 a, #coord-2 a {
-        margin: 0 auto;
-    }
-
-    .itemA {
-        flex: 1 auto !important;
-    }
-
-    .border {
-        border-bottom: solid 1px;
+    .separator {
         border-right: none !important;
     }
 
     #miseEnBouche {
-        margin-bottom: 0px;
+        justify-content: center;
     }
 
     #miseEnBouche div p {
-        padding-bottom: 30px !important;
+        min-height: 220px !important;
+    }
+
+    #miseEnBouche div:first-child div {
+        padding-right: 0px !important;
     }
 
     /** Experiences **/

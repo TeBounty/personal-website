@@ -65,7 +65,7 @@
 
 #plusInfo {
     width: 400px;
-    height: 200px;
+    height: 220px;
     background-color: #2d2d2d;
     position: absolute;
     display: none;
@@ -74,7 +74,7 @@
 #plusInfo img {
     cursor: pointer;
     position: relative;
-    left: 90%;
+    left: 2%;
 }
 
 
