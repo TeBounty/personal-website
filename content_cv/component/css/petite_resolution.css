@@ -196,6 +196,16 @@
         padding-right: 0px !important;
     }
 
+    /** Profil **/
+    .main-timeline .description{
+        text-align: justify;
+        padding: 20px;
+    }
+
+    .title {
+        text-align: center !important;
+    }
+
     /** Experiences **/
 
     #plusInfo {
@@ -237,8 +247,4 @@
         width: 350px !important;
     }
 
-    /** Profil **/
-    .main-timeline .description {
-        text-align: center;
-      }
 }
