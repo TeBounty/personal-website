@@ -99,12 +99,28 @@
     }
     /** accueil **/
 
+    #containerAccueil {
+        justify-content: center !important;
+    }
+
+    #contentGeneral {
+        margin-bottom: 20px;
+    }
+
     .separator {
         border-right: none !important;
     }
 
-    #containerAccueil {
-        justify-content: center !important;
+    #miseEnBouche {
+        justify-content: center;
+    }
+
+    #miseEnBouche div p {
+        min-height: 220px !important;
+    }
+
+    #miseEnBouche div:first-child div {
+        padding-right: 0px !important;
     }
 
     /** Experiences **/
