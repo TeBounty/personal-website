@@ -30,6 +30,12 @@
     #miseEnBouche {
         margin-bottom: 20px;
     }
+
+    /** Compétences **/
+
+    #cadre1 h2, #cadre2 h2, #cadre3 h2 {
+        margin-top: 25vh !important;
+    }
     
     /** Experiences **/
 
@@ -235,16 +241,6 @@
     .itemL {
         margin-right: 0 !important;
         margin-bottom: 20px;
-    }
-
-    /** Compétences **/
-
-    #contentComp {
-        margin: 0px !important;
-    }
-
-    #contentCadre1, #contentCadre2, #contentCadre3, #cadre1, #cadre2, #cadre3 {
-        width: 350px !important;
     }
 
 }

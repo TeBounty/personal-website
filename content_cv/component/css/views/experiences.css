@@ -45,7 +45,7 @@
 .itemE {
     padding: 15px;
     width: 400px;
-    height: 150px;
+    min-height: 150px;
     margin-bottom: 30px;
     cursor: pointer;
     background-color: #2d2d2d;

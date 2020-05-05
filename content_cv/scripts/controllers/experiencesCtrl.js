@@ -22,7 +22,6 @@ angular.module('CvShow').controller("experiencesCtrl", function($scope, $route) 
 
         });
     }
-
 });
 
 // Récupérer les coordonnées des boutons
@@ -50,42 +49,43 @@ function changeContenuDivInfo(id) {
             divInfo.innerHTML = information;
             break;
         case 'deuxiemeExp':
-            information = "<span>" + "Conception d'une nouvelle fonctionnalité dans le portail interne :" + "</span>" +
+            information = "<span>" + "Programmation d'un parcours sur le logiciel de l'AAGV (Autonomous Guided Vehicles) :" + "</span>" +
             "<ul>" + 
-            "<li>Développement du front-end (html, css, javascript)</li>" + 
-            "<li>Développement du back-end (C#, base de données, procédure stockée)</li>" +
+            "<li>Automatiser la visite de l'usine par l'AAGV</li>" + 
+            "<li>Utilisation du logiciel de l'AAGV</li>" +
             "</ul>"
             divInfo.innerHTML = information;
             break;
         case 'troisiemeExp':
-            information = "<span>" + "Conception d'une nouvelle fonctionnalité dans le portail interne :" + "</span>" +
+            information = "<span>" + "Etude d'un code source d'une application mobile de géolocalisation :" + "</span>" +
             "<ul>" + 
-            "<li>Développement du front-end (html, css, javascript)</li>" + 
-            "<li>Développement du back-end (C#, base de données, procédure stockée)</li>" +
+            "<li>Mise en place d'un cahier des charges pour l'application</li>" + 
+            "<li>Adapter le code source de base aux besoins de l'association</li>" +
             "</ul>"
             divInfo.innerHTML = information;
             break;
         case 'quatriemeExp':
-            information = "<span>" + "Conception d'une nouvelle fonctionnalité dans le portail interne :" + "</span>" +
+            information = "<span>" + "Modélisation d'une base de données :" + "</span>" +
             "<ul>" + 
-            "<li>Développement du front-end (html, css, javascript)</li>" + 
-            "<li>Développement du back-end (C#, base de données, procédure stockée)</li>" +
+            "<li>Découverte du fonctionnement d'une base de donnée</li>" + 
+            "<li>Se familiariser avec l'html et le css</li>" +
             "</ul>"
             divInfo.innerHTML = information;
             break;
         case 'cinquiemeExp':
-            information = "<span>" + "Conception d'une nouvelle fonctionnalité dans le portail interne :" + "</span>" +
+            information = "<span>" + "Accueil de la piscine municipale de Martres-Tolosane :" + "</span>" +
             "<ul>" + 
-            "<li>Développement du front-end (html, css, javascript)</li>" + 
-            "<li>Développement du back-end (C#, base de données, procédure stockée)</li>" +
+            "<li>Accueil des clients</li>" +
+            "<li>Gestion de la caisse</li>" + 
+            "<li>Entretien des locaux et des vestiaires</li>" +
             "</ul>"
             divInfo.innerHTML = information;
             break;
         case 'sixiemeExp':
-            information = "<span>" + "Conception d'une nouvelle fonctionnalité dans le portail interne :" + "</span>" +
+            information = "<span>" + "Découverte des tâches d'une assistante comptable et de gestion :" + "</span>" +
             "<ul>" + 
-            "<li>Développement du front-end (html, css, javascript)</li>" + 
-            "<li>Développement du back-end (C#, base de données, procédure stockée)</li>" +
+            "<li>Mettre à jour les données des comptes clients</li>" + 
+            "<li>Apprendre à utiliser Excel</li>" +
             "</ul>"
             divInfo.innerHTML = information;
             break;
