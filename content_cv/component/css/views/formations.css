@@ -2,39 +2,39 @@
     justify-content: center;
 }
 
+#containerFormation {
+  padding: 10px;
+}
+
 /** Timeline 1 **/
 
-  #timeline {
+  #timeline, #timeline2 {
     display: -webkit-box;
     display: flex;
     flex-wrap: wrap;
   }
 
-  #timeline:hover .tl-item {
+  /* #timeline:hover .tl-item {
     width: 23.3333%;
-  }
+  } */
   
   .tl-item {
-    -webkit-transform: translate3d(0, 0, 0);
-            transform: translate3d(0, 0, 0);
     position: relative;
     width: 25%;
-    /* height: 100vh; */
-    min-height: 340px;
+    height: 340px;
     color: #fff;
     overflow: hidden;
-    -webkit-transition: width 0.5s ease;
-    transition: width 0.5s ease;
+    /* -webkit-transition: width 0.5s ease;
+    transition: width 0.5s ease; */
+  }
+
+  .item-border-right {
     border-right: 2px solid black;
   }
 
-  .tl-item:last-child {
-    border: none;
-  }
-
-  .tl-item:hover {
+  /* .tl-item:hover {
     width: 30% !important;
-  }
+  } */
 
   .tl-item:hover .tl-content {
     opacity: 1;
@@ -56,16 +56,15 @@
     z-index: 1;
     text-align: center;
     margin: 0 1.618em;
-    top: 30%;
+    top: 40%;
     opacity: 0;
     background-color: #031625;
     padding: 15px;
   }
   
   .tl-content h1 {
-    font-family: 'Pathway Gothic One',Helvetica Neue,Helvetica,Arial,sans-serif;
     text-transform: uppercase;
-    font-size: 1.44rem;
+    font-size: 1.8rem;
     font-weight: normal;
   }
 
@@ -111,127 +110,27 @@
     transition: filter 0.5s ease, -webkit-filter 0.5s ease;
     -webkit-filter: grayscale(100%);
             filter: grayscale(100%);
+    background-color: cornsilk;
   }
 
   /** Timeline 2 **/
 
-  #timeline2 {
-    display: -webkit-box;
-    display: flex;
-    flex-wrap: wrap;
-  }
-
-  #timeline2:hover .tl-item2 {
-    width: 23.3333%;
-  }
-  
-  .tl-item2 {
-    -webkit-transform: translate3d(0, 0, 0);
-            transform: translate3d(0, 0, 0);
-    position: relative;
-    width: 25%;
-    /* height: 100vh; */
-    min-height: 350px;
-    color: #fff;
-    overflow: hidden;
-    -webkit-transition: width 0.5s ease;
-    transition: width 0.5s ease;
-  }
-
-  .tl-item2:hover {
-    width: 30% !important;
-  }
-
-  .tl-item2:hover .tl-content {
-    opacity: 1;
-    -webkit-transform: translateY(0);
-            transform: translateY(0);
-    -webkit-transition: all 0.75s ease 0.5s;
-    transition: all 0.75s ease 0.5s;
-  }
-  
-  .tl-item2:hover .tl-bg2 {
-    -webkit-filter: grayscale(0);
-            filter: grayscale(0);
-  }
-  
-  .tl-content2 {
-    -webkit-transform: translate3d(0, 0, 0) translateY(25px);
-            transform: translate3d(0, 0, 0) translateY(25px);
-    position: relative;
-    z-index: 1;
-    text-align: center;
-    margin: 0 1.618em;
-    top: 30%;
-    opacity: 0;
-    background-color: #031625;
-    padding: 15px;
-  }
-  
-  .tl-content2 h1 {
-    text-transform: uppercase;
-    font-size: 1.44rem;
-    font-weight: normal;
-  }
-
-  .tl-content2 p {
-      color: white;
-  }
-  
-  .tl-year2 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    width: 150px;
-    height: 30px;
-    background-color: #fc7304;
-    top: 22%;
-    left: 50%;
-    -webkit-transform: translateX(-50%) translateY(-50%);
-            transform: translateX(-50%) translateY(-50%);
-    z-index: 1;
-  }
-
-  .tl-year2 p {
-    font-size: 2.5rem;
-    line-height: 0;
-    color: white;
-    padding: 10px;
-  }
-  
-  .tl-bg2 {
-    -webkit-transform: translate3d(0, 0, 0);
-            transform: translate3d(0, 0, 0);
-    /* position: absolute; */
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    background-size: cover;
-    background-position: center center;
-    -webkit-transition: -webkit-filter 0.5s ease;
-    transition: -webkit-filter 0.5s ease;
-    transition: filter 0.5s ease;
-    transition: filter 0.5s ease, -webkit-filter 0.5s ease;
-    -webkit-filter: grayscale(100%);
-            filter: grayscale(100%);
+  #timeline2 .tl-item:first-child {
+    border-left: 2px solid black;
   }
 
   /** Bordure triangle **/
 
   .border {
-    position: fixed;
-    top: 35%;
     border-style: solid;
     border-width: 40px;
     border-color: black;
   }
   
-  .css-border-arrow {
+  /* .css-border-arrow {
     width: 0;
     height: 0;
-  }
+  } */
   
   .left {
     border-top-color: transparent;

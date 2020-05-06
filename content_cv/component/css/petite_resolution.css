@@ -236,6 +236,26 @@
         margin-top: 0px !important;
     }
 
+    /** Formations **/
+
+    #timeline {
+        flex-direction: column;
+    }
+
+    .tl-item {
+        width: 100% !important;
+        border-right: none !important;
+        border-bottom: 2px solid black;
+    }
+
+    #timeline2 .tl-item:first-child {
+        border-left: none !important;
+      }
+
+      #timeline2 .tl-item:last-child {
+          border-bottom: none !important;
+      }
+
     /** Loisirs **/
 
     .itemL {
