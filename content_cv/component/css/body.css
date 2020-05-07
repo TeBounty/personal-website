@@ -88,6 +88,14 @@ a {
     z-index: 99;
 }
 
+#printerCv a i {
+    font-size: 48px;
+}
+
+#printerCv a i:hover {
+    color: rgb(0, 152, 198);
+}
+
 /** Retour site **/
 
 #retourSite {
@@ -100,6 +108,7 @@ a {
 }
 
 #retourSite a i {
+    font-size: 48px;
     color: rgb(0, 152, 198);
 }
 
