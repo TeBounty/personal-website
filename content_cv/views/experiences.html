@@ -1,18 +1,42 @@
 <section id="experiences" ng-controller="experiencesCtrl" class="flex-container">
-    <div ng-init="load()" class="transparence">
+    <div class="transparence">
         <div id="contentExp" class="flex-container">
             <div class="flex-container">
                 <div id="premierExp" id="" class="centerE itemE" onclick="changeContenuDivInfo(this.id)">
-                    <h2>Stage développeur</h2>
-                    <h4>ARCESI</h4>
+                    <div class="portfolio-experiment">
+                        <a>
+                            <span class="text">2019 - ARCESI</span>
+                            <span class="text">Stage de développement</span>
+                            <span class="line -right"></span>
+                            <span class="line -top"></span>
+                            <span class="line -left"></span>
+                            <span class="line -bottom"></span>
+                        </a>
+                    </div>
                 </div>
                 <div id="deuxiemeExp" class="centerE itemE" onclick="changeContenuDivInfo(this.id)">
-                    <h2>Stage de programmation d'un AAGV</h2>
-                    <h4>Continental Toulouse</h4>
+                    <div class="portfolio-experiment">
+                        <a>
+                            <span class="text">2018 - Continental</span>
+                            <span class="text">Stage de programmation</span>
+                            <span class="line -right"></span>
+                            <span class="line -top"></span>
+                            <span class="line -left"></span>
+                            <span class="line -bottom"></span>
+                        </a>
+                    </div>
                 </div>
                 <div id="troisiemeExp" class="centerE itemE" onclick="changeContenuDivInfo(this.id)">
-                    <h2>Stage de développement</h2>
-                    <h4>Association Sol-Violette Toulouse</h4>
+                    <div class="portfolio-experiment">
+                        <a>
+                            <span class="text">2018 - Sol Violette</span>
+                            <span class="text">Stage de développement</span>
+                            <span class="line -right"></span>
+                            <span class="line -top"></span>
+                            <span class="line -left"></span>
+                            <span class="line -bottom"></span>
+                        </a>
+                    </div>
                 </div>
             </div>
 
@@ -20,30 +44,53 @@
 
             <div class="flex-container">
                 <div id="quatriemeExp" class="centerE itemE" onclick="changeContenuDivInfo(this.id)">
-                    <h2>Stage de développement</h2>
-                    <h4>DSI Blagnac</h4>
+                    <div class="portfolio-experiment">
+                        <a>
+                            <span class="text">2017 - DSI</span>
+                            <span class="text">Stage de développement</span>
+                            <span class="line -right"></span>
+                            <span class="line -top"></span>
+                            <span class="line -left"></span>
+                            <span class="line -bottom"></span>
+                        </a>
+                    </div>
                 </div>
                 <div id="cinquiemeExp" class="centerE itemE" onclick="changeContenuDivInfo(this.id)">
-                    <h2>Agent d'accueil - CDD</h2>
-                    <h4>Piscine Municipale de Martres-Tolosane</h4>
+                    <div class="portfolio-experiment">
+                        <a>
+                            <span class="text">2016 - Mairie</span>
+                            <span class="text">Agent d'accueil - CDD</span>
+                            <span class="line -right"></span>
+                            <span class="line -top"></span>
+                            <span class="line -left"></span>
+                            <span class="line -bottom"></span>
+                        </a>
+                    </div>
                 </div>
                 <div id="sixiemeExp" class="centerE itemE" onclick="changeContenuDivInfo(this.id)">
-                    <h2>Stage Assistante comptable et de gestion</h2>
-                    <h4>Gaches Chimie Escalquens et Labège Motors</h4>
+                    <div class="portfolio-experiment">
+                        <a>
+                            <span class="text">2015 - Gâches Chimie</span>
+                            <span class="text">Stage Assistante de gestion</span>
+                            <span class="line -right"></span>
+                            <span class="line -top"></span>
+                            <span class="line -left"></span>
+                            <span class="line -bottom"></span>
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
 
         <div id="printerCv" class="flex-container">
-            <a href="doc_site/chloe-gardenat-cv.pdf" target="_blank"><img src="component/img/printer.png" /></a>
+            <a href="doc_site/chloe-gardenat-cv.pdf" target="_blank"><i class="fa fa-download" aria-hidden="true"></i></a>
+        </div>
+
+        <div id="plusInfo" class="flex-container">
+            <img src="component/img/cross.png" onclick="closeDiv()" />
+            <div>
+    
+            </div>
         </div>
     </div>
-
-    <div id="plusInfo" class="flex-container">
-        <img src="component/img/cross.png" onclick="closeDiv()" />
-        <div>
-
-        </div>
-    </div>
-
 </section>

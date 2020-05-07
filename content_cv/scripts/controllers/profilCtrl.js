@@ -4,5 +4,11 @@ angular.module('CvShow').controller("profilCtrl", function ($scope, $route) {
     $scope.$route = $route;
     $scope.title = "Chloé GARDENAT";
     $scope.soustitle = "Développeuse Web Logiciel";
-    $scope.message = "J'ai un titre Bac+2 et je veux poursuivre mes études dans le but de devenir concepteur développeur. Je suis donc à la recherche d'une alternance pour poursuivre ce but. J'aimerais à travers ce parcours perfectionner mes compétences actuelles au sein d'une équipe et partager mon savoir. Pâtissière de formation, j’ai choisi de me reconvertir dans le domaine du développement web et mobile pour des raisons de santé (je suis bénéficiaire d’une RQTH), mais également pour mon grand intérêt dans l’informatique : jeux, montage d’un PC. La création aussi d’un site internet via un CMS m’a permis d’en connaître ses limites : cela m’a motivée à me former dans le développement.";
+    
+    $scope.bp = "Originaire de l'Ile de la Reunion, Boulangère Pâtissière de formation initiale ayant également un CAP Pâtisserie. J'ai dû rejoindre la métropole française pour des raisons de santé.";
+    $scope.sante = "En effet, ma pathologie ne me permettant plus d'effectuer un emploi à temps complet et des tâches dites physiques. J'ai dû réfléchir à une reconversion professionnelle. Je suis également bénéficiaire d'une RQTH.";
+    $scope.reconversion = "Ma recherche a été une étape longue et compliquée pour moi car cela représentait l'abandon de ma passion pour la pâtisserie. Après la découverte de différent corps de métier à travers différentes formations je découvre le développement web.";
+    $scope.dev = "Mettre en place un site web à partir d'un CMS m'a permis d'en connaître les limites et de me permettre de pousser mes connaissances en développement. Je suis maintenant titulaire d'un titre professionnel de développeuse web et mobile.";
+
 });
+

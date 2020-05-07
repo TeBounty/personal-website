@@ -1,3 +1,94 @@
 #competences {
     justify-content: center;
 }
+
+/** Cadres compétences **/
+
+#contentCadre1 {
+    background-color: rgba(181, 181, 181, 0.918);
+    padding: 20px;
+    height: 700px;
+    width: 400px;
+    box-sizing: border-box;
+    position: relative;
+    z-index: 2;
+    margin-top: 700px;
+    transition: all .5s linear;
+}
+
+#contentCadre2 {
+    background-color: rgba(181, 181, 181, 0.918);
+    padding: 20px;
+    height: 700px;
+    width: 400px;
+    box-sizing: border-box;
+    position: relative;
+    z-index: 2;
+    margin-top: 700px;
+    transition: all .5s linear;
+}
+
+#contentCadre3 {
+    background-color: rgba(181, 181, 181, 0.918);
+    padding: 20px;
+    height: 700px;
+    width: 400px;
+    box-sizing: border-box;
+    position: relative;
+    z-index: 2;
+    margin-top: 700px;
+    transition: all .5s linear;
+}
+
+#cadre1 {
+    height: 700px;
+    overflow: hidden;
+    background-image: url(../../img/knowledge.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #2d2d2d;
+    flex-grow: 1;
+}
+
+#cadre2 {
+    height: 700px;
+    overflow: hidden;
+    background-image: url(../../img/knowledge_tools.jpg);
+    background-position: initial;
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex-grow: 1;
+}
+
+#cadre1 h2, #cadre2 h2, #cadre3 h2 {
+    color: rgb(0, 152, 198);
+    background-color: white;
+    margin-top: 35vh; /* poussé de la moitié de hauteur de viewport */
+    transform: translateY(-50%); /* tiré de la moitié de sa propre hauteur */
+}
+
+#cadre3 {
+    height: 700px;
+    overflow: hidden;
+    background-image: url(../../img/map.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #2d2d2d;
+    flex-grow: 1;
+}
+
+#cadre1:hover #contentCadre1 {
+    margin-top: -20px;
+}
+
+#cadre2:hover #contentCadre2 {
+    margin-top: -20px;
+}
+
+#cadre3:hover #contentCadre3 {
+    margin-top: -20px;
+}
+
+/** Etoiles **/
