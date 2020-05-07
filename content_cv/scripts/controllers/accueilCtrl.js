@@ -19,16 +19,17 @@ angular.module('CvShow').controller("accueilCtrl", function ($scope) {
     //         console.log(element);
     //     });
     // }
+
 });
 
 
 // var i = 0;
-// var txt = "Je suis à la recherche d'une entreprise à l'écoute, qui souhaite m'accompagner dans mon évolution. Afin que je lui en apporte davantage que ce qu'il m'apporte.";
+// var txt = "Je suis à la recherche d'un poste de développeuse junior au sein d'une entreprise qui pourra m'accompagner dans mon évolution.";
 // var speed = 50;
 
 // function typeWriter() {
 //     if (i < txt.length) {
-//         document.getElementById().innerHTML += txt.charAt(i);
+//         document.getElementById("contentRecherche").innerHTML += txt.charAt(i);
 //         i++;
 //         setTimeout(typeWriter, speed);
 //     }
