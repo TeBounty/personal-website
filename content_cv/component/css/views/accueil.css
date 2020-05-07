@@ -72,14 +72,6 @@ h2, h3 {
     text-align: center;
 }
 
-/* i {
-    font-size: 48px !important;
-}
-
-i:hover {
-    color: rgb(0, 152, 198);
-} */
-
 /** Contact **/
 
 .follow {
@@ -120,6 +112,7 @@ i:hover {
   text-transform: uppercase;
   -webkit-transition: opacity .5s .75s ease-out;
   transition: opacity .5s .75s ease-out;
+  color: white;
 }
 
 .icon {
