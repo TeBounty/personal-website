@@ -70,6 +70,15 @@ h2, h3 {
 #miseEnBouche h3 {
     margin-top: 10px;
     text-align: center;
+    background-color: rgb(0, 152, 198);
+    color: white;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+#miseEnBouche h3:hover {
+  background-color: white;
+  color: rgb(0, 152, 198);
 }
 
 /** Contact **/
