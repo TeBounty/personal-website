@@ -111,7 +111,6 @@
     transition: filter 0.5s ease, -webkit-filter 0.5s ease;
     -webkit-filter: grayscale(100%);
             filter: grayscale(100%);
-    background-color: cornsilk;
   }
 
   /** Timeline 2 **/

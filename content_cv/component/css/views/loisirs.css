@@ -39,7 +39,7 @@
 /** Ribbon **/
 
 .ribbon-wrapper {
-	position: relative;z-index:998;
+	position: relative;z-index:98;
 }
   .ribbon-front {
 	background-color: #cc3333;	height: 50px;
