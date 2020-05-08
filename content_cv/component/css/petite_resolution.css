@@ -318,7 +318,7 @@
     .tl-item {
         width: 100% !important;
         border-right: none !important;
-        border-bottom: 2px solid black;
+        border-bottom: 4px solid black;
     }
 
     #timeline2 .tl-item:first-child {
@@ -335,7 +335,7 @@
     }
 
     .border {
-        top: 0;
+        top: 0 !important;
         right: 37%;
     }
     /** Loisirs **/
