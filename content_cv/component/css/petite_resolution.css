@@ -29,6 +29,10 @@
     }
     /** accueil **/
 
+    #titreAccueil {
+        margin-top: 20px;
+    }
+
     .separator {
         border-right: none !important;
     }
@@ -141,6 +145,10 @@
     }
     /** accueil **/
 
+    #titreAccueil {
+        margin-top: 20px;
+    }
+
     #containerAccueil {
         justify-content: center !important;
     }
@@ -224,6 +232,10 @@
     }
 
     /** accueil **/
+
+    #titreAccueil {
+        margin-top: 20px;
+    }
 
     #containerAccueil {
         justify-content: center !important;
@@ -311,12 +323,21 @@
 
     #timeline2 .tl-item:first-child {
         border-left: none !important;
-      }
+    }
 
-      #timeline2 .tl-item:last-child {
+    #timeline2 .tl-item:last-child {
           border-bottom: none !important;
-      }
+    }
 
+    .left {
+        border-top-color: black !important;
+        border-left-color: transparent !important;
+    }
+
+    .border {
+        top: 0;
+        right: 37%;
+    }
     /** Loisirs **/
 
     .itemL {

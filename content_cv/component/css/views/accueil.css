@@ -2,11 +2,6 @@
     justify-content: center;
 }
 
-#titreAccueil {
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
-
 h2 {
     font-size: 3rem;;
 }
@@ -29,6 +24,7 @@ h2, h3 {
 #contentGeneral {
     max-width: 430px;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
 }
 
