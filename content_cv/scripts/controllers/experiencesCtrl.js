@@ -18,8 +18,6 @@ angular.module('CvShow').controller("experiencesCtrl", function($scope, $route) 
             placementDivInfo.style.top = (positions.clientY + 150) + 'px';
             placementDivInfo.style.display = "block";
 
-            // element.classList.add("activeItemE");
-
         });
     }
 });
@@ -95,6 +93,4 @@ function changeContenuDivInfo(id) {
 // Ferme la div si on clique sur la croix
 function closeDiv() {
     document.querySelector("#plusInfo").style.display = "none";
-
-    // element.classList.remove("activeItemE");
 }

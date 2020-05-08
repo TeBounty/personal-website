@@ -2,11 +2,6 @@
     justify-content: center;
 }
 
-#titreAccueil {
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
-
 h2 {
     font-size: 3rem;;
 }
@@ -29,6 +24,7 @@ h2, h3 {
 #contentGeneral {
     max-width: 430px;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
 }
 
@@ -70,6 +66,15 @@ h2, h3 {
 #miseEnBouche h3 {
     margin-top: 10px;
     text-align: center;
+    background-color: rgb(0, 152, 198);
+    color: white;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+#miseEnBouche h3:hover {
+  background-color: white;
+  color: rgb(0, 152, 198);
 }
 
 /** Contact **/
