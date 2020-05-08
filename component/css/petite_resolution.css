@@ -10,10 +10,14 @@
         background-image: url(../img/fond_tablette.jpg);
     }
 
-    h1 {
-        max-width: 550px;
-    font-size: 59px;
-    line-height: 80px;
+    #container {
+        flex-direction: column;
+    }
+
+    #titreContainer {
+        display: flex;
+        justify-content: center;
+        padding: 0 !important;
     }
 
     footer p {
@@ -38,14 +42,18 @@
         height: 50px;;
     }
 
-    #buttonCv {
-        visibility: hidden;
+    #container {
+        flex-direction: column;
     }
 
-    h1 {
-        max-width: 300px;
-        font-size: 30px;
-        line-height: 53px;
+    #titreContainer {
+        display: flex;
+        justify-content: center;
+        padding: 0 !important;
+      }
+
+    #buttonCv {
+        visibility: hidden;
     }
 
     footer p {
@@ -68,6 +76,16 @@
         width: 50px;
         height: 50px;;
     }
+
+    #container {
+        flex-direction: column;
+    }
+
+    #titreContainer {
+        display: flex;
+        justify-content: center;
+        padding: 0 !important;
+      }
 
     #buttonCv {
         visibility: hidden;
