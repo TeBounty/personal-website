@@ -45,6 +45,10 @@
         margin-bottom: 20px;
     }
 
+    #contentGeneral .label {
+        display: none;
+    }
+
     /** Compétences **/
 
     #competences #printerCv {   
@@ -145,6 +149,10 @@
         margin-bottom: 20px;
     }
 
+    #contentGeneral .label {
+        display: none;
+    }
+
     .separator {
         border-right: none !important;
     }
@@ -223,6 +231,10 @@
 
     #contentGeneral {
         margin-bottom: 20px;
+    }
+
+    #contentGeneral .label {
+        display: none;
     }
 
     .separator {
