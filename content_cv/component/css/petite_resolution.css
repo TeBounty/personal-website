@@ -102,24 +102,10 @@
 
     /** Loisirs **/
 
-    #contentLoisirs::before,
-    #contentLoisirs::after {
-        content: '';
-        width: 100%;
-        order: 1;
-    }
-    
-    #contentLoisirs div:nth-child(n + 3) {
-        order: 1;
-    }
-
-    #contentLoisirs .itemL:nth-child(2) {
-        margin-right: 0 !important;
-    }
-
     .itemL {
-        margin-bottom: 20px;
+        margin: 5% auto !important;
     }
+
 }
 
 @media all and (min-width: 382px) and (max-width: 767px) {
@@ -202,10 +188,6 @@
 
     /** Loisirs **/
 
-    .itemL {
-        margin-right: 0 !important;
-        margin-bottom: 20px;
-    }
 }
 
 @media all and (min-width: 300px) and (max-width: 382px) {
@@ -341,8 +323,8 @@
     /** Loisirs **/
 
     .itemL {
-        margin-right: 0 !important;
-        margin-bottom: 20px;
+        min-width: 300px !important;
+        margin: 5% auto !important;
     }
 
 }

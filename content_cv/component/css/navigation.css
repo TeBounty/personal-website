@@ -47,7 +47,6 @@ nav#navMenu ul li a:hover {
 label[for="menuBurger"]{
     margin:1rem;
     display:block;
-    /* background:url(img/menu.png) no-repeat; */
     width:30px;
     height:30px;
     font-size: 25px;

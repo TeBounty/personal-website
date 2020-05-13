@@ -1,40 +1,9 @@
 <section id="loisirs" ng-controller="loisirsCtrl" class="flex-container" style="height: 500px;">
     <div class="transparence">
         <div id="contentLoisirs" class="flex-container">
-            <!-- <div class="itemL">
-                <h3>Manga</h3>
-                <div></div>
-                    <div id="slider_manga">
-                        <div id="slides_manga">
-                            <figure id="slide_manga1">
-                                <div class="zoro"></div>
-                                <figcaption>Zoro - One Piece</figcaption>
-                            </figure>
-                            <figure id="slide_manga2">
-                                <div style="width: 200px; height: 200px; background-color: rebeccapurple;"></div>
-                                <figcaption>Deuxième Image</figcaption>
-                            </figure>
-                            <figure id="slide_manga3">
-                                <div style="width: 200px; height: 200px; background-color: rosybrown;"></div>
-                                <figcaption>Troisième Image</figcaption>
-                            </figure>
-                        </div>
-                    </div>
-            </div>
-            <div class="itemL">
-                <h3>Dessin</h3>
-                <div></div>
-            </div>
-            <div class="itemL">
-                <h3>Informatique</h3>
-                <div></div>
-            </div>
-            <div class="itemL">
-                <h3>Football</h3>
-                <div></div>
-            </div> -->
 
-            <div style="width:260px; height:370px; margin:5% auto; background-color: white;" class="">
+            <div class="itemL">
+
                 <div class="ribbon-wrapper">
                     <div class="glow">&nbsp;</div>
                     <div class="ribbon-front">
@@ -45,14 +14,12 @@
                     <div class="ribbon-edge-bottomleft"></div>
                     <div class="ribbon-edge-bottomright"></div>
                 </div>
-                <div style="height: 250px; background-image: url(component/img/one_piece.png); background-repeat: no-repeat;
-                background-size: contain;
-                background-position: center;">
-                    
-                </div>
+                <img class="itemLchild child" src="component/img/manga.png"
+                    onmouseover="this.src='component/img/manga.gif'" onmouseout="this.src='component/img/manga.png'" />
+
             </div>
 
-            <div style="width:260px; height:370px; margin:5% auto; background: white;">
+            <div class="itemL">
                 <div class="ribbon-wrapper">
                     <div class="glow">&nbsp;</div>
                     <div class="ribbon-front">
@@ -63,32 +30,11 @@
                     <div class="ribbon-edge-bottomleft"></div>
                     <div class="ribbon-edge-bottomright"></div>
                 </div>
-                <div style="height: 250px; background-image: url(component/img/cedric_bd.png); background-repeat: no-repeat;
-                background-size: contain;
-                background-position: center;">
-                    
-                </div>
-            </div>
+                <img class="itemLchild" src="component/img/cedric_bd.png" />
 
-            <div style="width:260px; height:370px; margin:5% auto; background: white;">
-                <div class="ribbon-wrapper">
-                    <div class="glow">&nbsp;</div>
-                    <div class="ribbon-front">
-                        Jeux vidéo
-                    </div>
-                    <div class="ribbon-edge-topleft"></div>
-                    <div class="ribbon-edge-topright"></div>
-                    <div class="ribbon-edge-bottomleft"></div>
-                    <div class="ribbon-edge-bottomright"></div>
-                </div>
-                <div style="height: 250px; background-image: url(component/img/assassins_creed.jpg); background-repeat: no-repeat;
-                background-size: contain;
-                background-position: center;">
-                    
-                </div>
             </div>
-
-            <div style="width:260px; height:370px; margin:5% auto; background: white;">
+            
+            <div class="itemL">
                 <div class="ribbon-wrapper">
                     <div class="glow">&nbsp;</div>
                     <div class="ribbon-front">
@@ -99,17 +45,33 @@
                     <div class="ribbon-edge-bottomleft"></div>
                     <div class="ribbon-edge-bottomright"></div>
                 </div>
-                <div style="height: 250px; background-image: url(component/img/olivetom.jpg); background-repeat: no-repeat;
-                background-size: contain;
-                background-position: center;">
-                    
+                <img class="itemLchild" src="component/img/football.jpg" alt="ballon de football" />
+
+            </div>
+
+            <div class="itemL">
+                <div class="ribbon-wrapper">
+                    <div class="glow">&nbsp;</div>
+                    <div class="ribbon-front">
+                        Jeux vidéo
+                    </div>
+                    <div class="ribbon-edge-topleft"></div>
+                    <div class="ribbon-edge-topright"></div>
+                    <div class="ribbon-edge-bottomleft"></div>
+                    <div class="ribbon-edge-bottomright"></div>
                 </div>
+                <img class="itemLchild child" src="component/img/jeu_video.png"
+                    onmouseover="this.src='component/img/jeu_video.gif'"
+                    onmouseout="this.src='component/img/jeu_video.png'" />
+
+            </div>
+
+
+            <div id="printerCv" class="flex-container">
+                <a href="doc_site/CV-chloe-gardenat.pdf" target="_blank"><i class="fa fa-download"
+                        aria-hidden="true"></i></a>
             </div>
         </div>
-
-        <div id="printerCv" class="flex-container">
-            <a href="doc_site/CV-chloe-gardenat.pdf" target="_blank"><i class="fa fa-download" aria-hidden="true"></i></a>
-        </div>
-
     </div>
+
 </section>

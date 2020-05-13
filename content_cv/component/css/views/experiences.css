@@ -51,10 +51,6 @@
     background-color: #2d2d2d;
 }
 
-/* .itemE:hover {
-    background-color: rgba(0, 0, 0, 0.301);
-} */
-
 .activeItemE {
     background-color: rgba(0, 0, 0, 0.301);
 }
