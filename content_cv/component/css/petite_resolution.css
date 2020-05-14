@@ -66,7 +66,7 @@
     #competences #printerCv a i {
         color: white;
     }
-    
+
     /** Experiences **/
 
     #plusInfo {
@@ -100,26 +100,25 @@
         align-items: center;
     }
 
+    #premierExp {
+        order: 1 !important;
+    }
+
+    #quatriemeExp {
+        order: 1 !important;
+    }
+
     /** Loisirs **/
 
-    #contentLoisirs::before,
-    #contentLoisirs::after {
-        content: '';
-        width: 100%;
-        order: 1;
-    }
-    
-    #contentLoisirs div:nth-child(n + 3) {
-        order: 1;
-    }
-
-    #contentLoisirs .itemL:nth-child(2) {
-        margin-right: 0 !important;
-    }
-
     .itemL {
-        margin-bottom: 20px;
+        margin: 5% auto !important;
+        width: 450px !important;
     }
+
+    .ribbon-edge-topright, .ribbon-edge-bottomright {
+        left: 449px !important;
+    }
+
 }
 
 @media all and (min-width: 382px) and (max-width: 767px) {
@@ -134,6 +133,7 @@
 
     #containerNav div:last-child {
         width: 500px;
+        margin: 0;
     }
     footer {
         min-height: 30px;
@@ -155,6 +155,7 @@
 
     #contentGeneral {
         margin-bottom: 20px;
+        margin-right: 0 !important;
     }
 
     #contentGeneral .label {
@@ -177,16 +178,30 @@
         padding-right: 0px !important;
     }
 
+
     /** Experiences **/
 
     #plusInfo {
         width: 330px !important;
     } 
 
+    #plusInfo div {
+        padding-left: 25px !important;
+    }
+
     .itemE {
         width: 330px !important;
         margin-bottom: 15px !important;
     }
+
+    #contentExp {
+        flex-direction: column !important;
+    }
+
+    #contentExp div {
+        align-self: center;
+    }
+
     #contentExp div:first-child {
         order: 2;
     }
@@ -200,12 +215,60 @@
         margin-top: 0px !important;
     }
 
+    #premierExp {
+        order: 1 !important;
+    }
+
+    #quatriemeExp {
+        order: 1 !important;
+    }
+
+    /** Formation **/
+
+    #timeline {
+        flex-direction: column;
+    }
+
+    .tl-item {
+        width: 100% !important;
+        height: 650px !important;
+        border-right: none !important;
+        border-bottom: 4px solid black;
+    }
+
+    #timeline2 .tl-item:first-child {
+        border-left: none !important;
+    }
+
+    #timeline2 .tl-item:last-child {
+          border-bottom: none !important;
+    }
+
+    .left {
+        border-top-color: black !important;
+        border-left-color: transparent !important;
+    }
+
+    .border {
+        top: 0 !important;
+        right: 44%;
+    }
+
     /** Loisirs **/
 
     .itemL {
-        margin-right: 0 !important;
-        margin-bottom: 20px;
+        margin: 4% auto !important;
+        width: 420px !important;
     }
+
+    .ribbon-edge-topright, .ribbon-edge-bottomright {
+        left: 420px !important;
+    }
+
+    .ribbon-front {
+        width: 105% !important;
+    }
+
 }
 
 @media all and (min-width: 300px) and (max-width: 382px) {
@@ -243,6 +306,7 @@
 
     #contentGeneral {
         margin-bottom: 20px;
+        margin-right: 0 !important;
     }
 
     #contentGeneral .label {
@@ -309,6 +373,18 @@
         margin-top: 0px !important;
     }
 
+    #premierExp {
+        order: 1 !important;
+    }
+
+    #quatriemeExp {
+        order: 1 !important;
+    }
+
+    #plusInfo div {
+        padding-left: 25px !important;
+    }
+
     /** Formations **/
 
     #timeline {
@@ -338,11 +414,13 @@
         top: 0 !important;
         right: 37%;
     }
+
+
     /** Loisirs **/
 
     .itemL {
-        margin-right: 0 !important;
-        margin-bottom: 20px;
+        min-width: 300px !important;
+        margin: 5% auto !important;
     }
 
 }

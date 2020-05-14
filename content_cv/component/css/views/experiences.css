@@ -2,6 +2,7 @@
     justify-content: center;
 }
 
+
 #contentExp {
     justify-content: space-around;
 }
@@ -51,10 +52,6 @@
     background-color: #2d2d2d;
 }
 
-/* .itemE:hover {
-    background-color: rgba(0, 0, 0, 0.301);
-} */
-
 .activeItemE {
     background-color: rgba(0, 0, 0, 0.301);
 }
@@ -65,10 +62,11 @@
 
 #plusInfo {
     width: 400px;
-    height: 220px;
+    min-height: 190px;
     background-color: #2d2d2d;
     position: absolute;
     display: none;
+    z-index: 100;
 }
 
 #plusInfo img {
@@ -79,12 +77,14 @@
 
 
 #plusInfo div {
-    padding: 40px;
+    padding-left: 30px;
+    padding-right: 30px;
     text-align: start;
 }
 
 #plusInfo span, ul {
     font-size: 1.5em;
+    font-family: 'Sawarabi Mincho', sans-serif;
     color: white;
 }
 
