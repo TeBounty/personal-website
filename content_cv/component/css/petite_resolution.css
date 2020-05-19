@@ -419,8 +419,18 @@
     /** Loisirs **/
 
     .itemL {
-        min-width: 300px !important;
-        margin: 5% auto !important;
+        width: 300px !important;
+        height: 240px !important;
+        margin: 8% auto !important;
+    }
+
+    .ribbon-front {
+        width: 107% !important;
+    }
+
+    .ribbon-edge-topright, .ribbon-edge-bottomright {
+        left: 301px !important;
+        
     }
 
 }

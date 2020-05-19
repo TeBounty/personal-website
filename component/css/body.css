@@ -81,7 +81,7 @@ img {
 h1 {
   display: flex;
   flex-direction: column;
-  max-width: 550px;
+  max-width: 580px;
   height: 400px;
   color: #fff;
   font-size: 70px;
