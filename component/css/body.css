@@ -10,7 +10,7 @@ html {
 
 body {
   margin: 0;
-  overflow-y: hidden;
+  overflow-y: scroll;
   font-size: 2.6rem;
   font-family: 'Fjalla One', sans-serif;
   background: url(../img/fond_ordi.jpg) no-repeat center center fixed; 
@@ -79,8 +79,7 @@ img {
 /** Css Animation **/
   
 h1 {
-  display: flex;
-  flex-direction: column;
+  display: block;
   max-width: 580px;
   height: 400px;
   color: #fff;
